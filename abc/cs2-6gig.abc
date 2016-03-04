@@ -1,0 +1,505 @@
+X: 1
+T: from midi/cs2-6gig.mid
+M: 3/8
+L: 1/16
+Q:1/4=250
+K:F % 1 flats
+% untitled
+% A
+% *
+% A'
+% B
+% B'
+V:1
+% Solo Cello
+%%MIDI program 42
+x4
+% untitled
+A,2| \
+% A
+D,4B,2| \
+_D,4G,2| \
+F,E,F, G,A,2|
+=D,4D2| \
+E,F,G,2B,2| \
+C,D,E,2C2| \
+A,G,A, B,CA,|
+F,4A,2| \
+=B,,2G,2_D,2| \
+=D,2F, C,_B,,A,,| \
+G,,2_E,2A,,2|
+B,,2D, A,,G,,F,,| \
+=E,,2_D,2B,2| \
+A,2G, F,E,=D,| \
+E,F,G, E,F,D,|
+E,2A,,2C2| \
+CD_E CDA,| \
+D,2G,,2D,2| \
+B,CD B,CG,|
+F,2F,,2F,2| \
+=B,CD =B,CA,| \
+D=EF DEC| \
+=B,CD =B,CA,|
+E4_A,2| \
+=A,=B,C A,D=B,| \
+A,=B,C A,D=B,| \
+A,=B,C A,D=B,|
+A,=B,C A,D
+% *
+=B,| \
+F2E DC=B,| \
+C,,ED C=B,_A,| \
+=A,F,E, D,E,_D,|
+A,,4A,2| \
+% A'
+=D,4_B,2| \
+_D,4G,2| \
+F,E,F, G,A,2|
+=D,4D2| \
+E,F,G,2B,2| \
+C,D,E,2C2| \
+A,G,A, B,CA,|
+F,4A,2| \
+=B,,2G,2_D,2| \
+=D,2F, C,_B,,A,,| \
+G,,2_E,2A,,2|
+B,,2D, A,,G,,F,,| \
+=E,,2_D,2B,2| \
+A,2G, F,E,=D,| \
+E,F,G, E,F,D,|
+E,2A,,2C2| \
+CD_E CDA,| \
+D,2G,,2D,2| \
+B,CD B,CG,|
+F,2F,,2F,2| \
+=B,CD =B,CA,| \
+D=EF DEC| \
+=B,CD =B,CA,|
+E4_A,2| \
+=A,=B,C A,D=B,| \
+A,=B,C A,D=B,| \
+A,=B,C A,D=B,|
+A,=B,C A,D=B,| \
+F2E DC=B,| \
+C,,ED C=B,_A,| \
+=A,F,E, D,E,_D,|
+A,,4C2| \
+% B
+F,4=D2| \
+E,4_B,2| \
+A,G,A, B,C2|
+F,4A,2| \
+D,E,F, D,C,=B,,| \
+G,A,G, F,E,D,| \
+E,D,E, F,G,E,|
+C,4E,2| \
+_G,=G,A, C,_B,,A,,| \
+B,,D,G, B,,A,,G,,| \
+_G,,A,,C, _E,D,C,|
+B,,A,,B,, D,=G,B,| \
+_A,G,_A, _G,=G,_E| \
+D,2G,2_G,2| \
+=G,_E,D, C,D,B,,|
+G,,4B,2| \
+=E,F,G, E,F,D,| \
+C,D,E, C,D,B,,| \
+=A,,B,,C, A,,B,,G,,|
+F,,4A,2| \
+D,E,F, D,E,C,| \
+B,,C,D, B,,C,A,,| \
+G,,A,,B,, G,,A,,F,,|
+E,,4G,2| \
+A,,=B,,_D, =D,E,G,| \
+F,G,A, _D=DF,| \
+E,F,G, A,_B,D,|
+_D,=D,E, A,,B,,G,,| \
+D,E,F, D,G,E,| \
+D,E,F, D,G,E,| \
+D,E,F, D,G,E,|
+D,E,F, D,G,E,| \
+_D,B,A, G,F,E,| \
+F,,A,G, F,E,_D,| \
+=D,B,,A,, G,,A,,F,,|
+D,,A,,D, E,F,D,| \
+_E,F,G, _E,F,D,| \
+G,A,B, G,A,F,| \
+_E,F,G, _E,F,D,|
+=E,4x2| \
+x6| \
+x6| \
+x6|
+x4C2| \
+% B'
+F,4D2| \
+E,4B,2| \
+A,G,A, B,C2|
+F,4A,2| \
+D,E,F, D,C,=B,,| \
+G,A,G, F,E,D,| \
+E,D,E, F,G,E,|
+C,4E,2| \
+_G,=G,A, C,_B,,A,,| \
+B,,D,G, B,,A,,G,,| \
+_G,,A,,C, _E,D,C,|
+B,,A,,B,, D,=G,B,| \
+_A,G,_A, _G,=G,_E| \
+D,2G,2_G,2| \
+=G,_E,D, C,D,B,,|
+G,,4B,2| \
+=E,F,G, E,F,D,| \
+C,D,E, C,D,B,,| \
+=A,,B,,C, A,,B,,G,,|
+F,,4A,2| \
+D,E,F, D,E,C,| \
+B,,C,D, B,,C,A,,| \
+G,,A,,B,, G,,A,,F,,|
+E,,4G,2| \
+A,,=B,,_D, =D,E,G,| \
+F,G,A, _D=DF,| \
+E,F,G, A,_B,D,|
+_D,=D,E, A,,B,,G,,| \
+D,E,F, D,G,E,| \
+D,E,F, D,G,E,| \
+D,E,F, D,G,E,|
+D,E,F, D,G,E,| \
+_D,B,A, G,F,E,| \
+F,,A,G, F,E,_D,| \
+=D,B,,A,, G,,A,,F,,|
+D,,A,,D, E,F,D,| \
+_E,F,G, _E,F,D,| \
+G,A,B, G,A,F,| \
+_E,F,G, _E,F,D,|
+=E,4
+V:2
+% --------------------------------------
+%%MIDI program 42
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+% untitled
+% A
+A,,6|
+x6| \
+D,6| \
+B,4B,2| \
+E,6|
+A,4A,2| \
+D,2D,2D,2| \
+D,2D,2D,2| \
+D,2D,2D,2|
+D,4x2| \
+C,2x4| \
+D,2x4| \
+E,2x4|
+F,2x4| \
+% *
+_A,2x4| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+% A'
+=A,,6|
+x6| \
+D,6| \
+B,4B,2| \
+E,6|
+A,4A,2| \
+D,2D,2D,2| \
+D,2D,2D,2| \
+D,2D,2D,2|
+D,4x2| \
+C,2x4| \
+D,2x4| \
+E,2x4|
+F,2x4| \
+_A,2x4| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+% B
+B,4x2| \
+x6| \
+x6|
+x6| \
+=A,4x2| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+F,,2x4| \
+G,,2x4| \
+A,,2x4|
+B,,2x4| \
+x6| \
+x6| \
+x6|
+x6| \
+G,,2G,,2G,,2| \
+G,,2G,,2G,,2| \
+G,,2G,,2G,,2|
+G,,4x2| \
+x6| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+% B'
+B,4x2| \
+x6| \
+x6|
+x6| \
+A,4x2| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+F,,2x4| \
+G,,2x4| \
+A,,2x4|
+B,,2x4| \
+x6| \
+x6| \
+x6|
+x6| \
+G,,2G,,2G,,2| \
+G,,2G,,2G,,2| \
+G,,2G,,2G,,2|
+G,,4
+V:3
+% Johann Sebastian Bach  (1685-1750)
+%%MIDI program 42
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+% untitled
+% A
+E,2x4| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+% *
+% A'
+E,2x4| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+% B
+A,,2x4| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+_D4=DC| \
+B,A,G, F,E,D,| \
+_D,=B,,A,, G,,F,,E,,| \
+=D,,F,,A,, D,F,A,|
+D4x2| \
+x6| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+% B'
+A,,2x4| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+_D4=DC| \
+_B,A,G, F,E,D,| \
+_D,=B,,A,, G,,F,,E,,| \
+=D,,F,,A,, D,F,A,|
+D4
+% Six Suites for Solo Cello
+% --------------------------------------
+% Suite No. 2 in D minor - BWV 1008
+% 6th Movement: Gigue
+% --------------------------------------
+% Sequenced with Cakewalk Pro Audio by
+% David J. Grossman - dave@unpronounceable.com
+% This and other Bach MIDI files can be found at:
+% Dave's J.S. Bach Page
+% http://www.unpronounceable.com/bach
+% --------------------------------------
+% Original Filename: cs2-6gig.mid
+% Last Modified: February 22, 1997

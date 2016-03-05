@@ -1,0 +1,15 @@
+Do,Re,Mi,Fa,Sol,La,Si
+_Re,_Mi,Fa,_Sol,_La,_Si,Do
+^Do,^Re,^Mi,^Fa,^Sol,^La,^Si
+Re,Mi,^Fa,Sol,La,Si,^Do
+_Mi,Fa,Sol,_La,_Si,Do,Re
+Mi,^Fa,^Sol,La,Si,^Do,^Re
+Fa,Sol,La,_Si,Do,Re,Mi
+^Fa,^Sol,^La,Si,^Do,^Re,^Mi
+_Sol,_La,_Si,Do,_Re,_Mi,Fa
+Sol,La,Si,Do,Re,Mi,^Fa
+_La,_Si,Do,_Re,_Mi,Fa,Sol
+La,Si,^Do,Re,Mi,^Fa,^Sol
+_Si,Do,Re,_Mi,Fa,Sol,La
+Si,^Do,^Re,Mi,^Fa,^Sol,^La
+_Do,_Re,_Mi,_Fa,_Sol,_La,_Si

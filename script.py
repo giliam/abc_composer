@@ -17,15 +17,15 @@ etatsPossibles = [
     "^La,","^Si,","^Do,","^Re,","^Mi,","^Fa,","^Sol,",
     "^La","^Si","^Do","^Re","^Mi","^Fa","^Sol"
 ]
-nb_etats = len(etatsPossibles)
-PI = [1./nb_etats for i in range(nb_etats)]
-A = [[1./nb_etats for i in range(nb_etats)] for j in range(nb_etats)]
+nbEtats = len(etatsPossibles)
+PI = [1./nbEtats for i in range(nbEtats)]
+A = [[1./nbEtats for i in range(nbEtats)] for j in range(nbEtats)]
 
 visibles = ["La","Si","Do","Re","Mi","Fa","Sol",
 "_La","_Si","_Do","_Re","_Mi","_Sol","^Fa"]
-nb_visibles = len(visibles)
+nbVisibles = len(visibles)
 
-E = [[] for i in range(nb_etats)]
+E = [[] for i in range(nbEtats)]
 
 notes_gammes = {note:[] for note in etatsPossibles}
 with open('gammes_data.csv', 'rb') as csvfile:
@@ -182,9 +182,9 @@ def baum_welch(PI,A,E,sequence):
     print nProba
     print "---------------\n\n"
 
-bf = True
-vi = True
-bw = True
+bf = False
+vi = False
+bw = False
 if bf:
     backward(PI,A,E,[0])
     backward(PI,A,E,[0,1])

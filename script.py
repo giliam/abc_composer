@@ -3,7 +3,7 @@
 from itertools import *
 from math import log10
 from random import *
-from read_abc import read_abc_file
+from read_abc import read_abc_file, write_abc
 import csv
 DEBUG = True
 
@@ -64,7 +64,47 @@ def train(filename,mm):
         mm[notes[i-1]][note] += 1.
     return mm
 
-files_list = ["cs1-1pre","cs1-2all","cs1-3cou","cs1-5men","cs2-1pre", "cs3-1pre"]
+def compose(tone,A,duration):
+    part = [tone]
+    for t in range(duration):
+        
+        possibles_following = [(elt,i) for i,elt in enumerate(A[part[t]]) if elt > 0]
+        n = len(possibles_following)
+
+        if n == 0:
+            part.append(part[t-1])
+            continue
+
+        possibles_sumed = [(possibles_following[0][0],0)]
+        for i in range(1, n):
+            possibles_sumed.append((possibles_sumed[i-1][0]+possibles_following[i][0], i))
+
+        next_note = random()
+        for proba,note in possibles_sumed:
+            if proba > next_note:
+                part.append(note)
+                break
+    return part
+
+def convert_to_abc(part):
+    output = """X: 1
+T: from midi/cs1-1pre.mid
+M: 4/4
+L: 1/8
+Q:1/4=80
+K:G % 1 sharps
+V:1"""
+    for i,note in enumerate(part):
+        output += etatsPossibles[note]
+        output += "/2"
+        if i%8 == 7:
+            output += "|"
+            if i%32 != 31:
+                output += "\\"
+            output += "\n"
+    return output
+
+files_list = ["cs1-1pre","cs1-2all","cs1-3cou","cs1-5men","cs1-4sar","cs1-6gig"]
 nb_files = len(files_list)
 for filename in files_list:
     A = train("abc/" + filename + ".abc", A)
@@ -73,4 +113,4 @@ for i,row in enumerate(A):
     if s > 0:
         A[i] = [row[j]/s for j in range(nbEtats)]
 
-compose(0,A,10)
+write_abc("output.abc", convert_to_abc(compose(0,A,50)))

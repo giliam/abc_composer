@@ -23,6 +23,10 @@ def read_abc_file(filename):
 				lines.append(parse_line(line))
 	return [[note[i] for line in lines for note in line] for i in range(2)]
 
+def write_abc(filename,data):
+	with open(filename, "w") as file:
+		file.write(data)
+
 if __name__ == "__main__":
 	print read_abc_file("abc/cs1-1pre.abc")
 	print read_abc_file("abc/cs1-5men.abc")

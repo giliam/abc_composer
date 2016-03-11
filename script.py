@@ -6,33 +6,32 @@ from random import *
 from read_abc import read_abc_file, write_abc
 import csv
 import os, os.path
-DEBUG = True
+import pickle
 
+DEBUG = True
 
 etatsPossibles = [
     "A,,","B,,","C,,","D,,","E,,","F,,","G,,",
     "A,","B,","C,","D,","E,","F,","G,",
     "A","B","C","D","E","F","G",
+    "a","b","c","d","e","f","g",
     "_A,,","_B,,","_C,,","_D,,","_E,,","_F,,","_G,,",
     "_A,","_B,","_C,","_D,","_E,","_F,","_G,",
     "_A","_B","_C","_D","_E","_F","_G",
+    "_a","_b","_c","_d","_e","_f","_g",
     "^A,,","^B,,","^C,,","^D,,","^E,,","^F,,","^G,,",
     "^A,","^B,","^C,","^D,","^E,","^F,","^G,",
-    "^A","^B","^C","^D","^E","^F","^G"
+    "^A","^B","^C","^D","^E","^F","^G",
+    "^a","^b","^c","^d","^e","^f","^g"
 ]
 etatsIndex = {note: i for i,note in enumerate(etatsPossibles)}
 
 nbEtats = len(etatsPossibles)
-A = [[0. for i in range(nbEtats)] for j in range(nbEtats)]
-
-N = len(A)
-etats = range(N)
-
 
 def argmax(values):
     return max(enumerate(values), key=lambda x:x[1])
 
-def convert_notes_id(data):
+def convert_notes_id(etatsIndex, data):
     output = []
     for note in data:
         output.append(etatsIndex[note.replace('=','')])
@@ -56,9 +55,9 @@ def forward (PI, A, sequence):
         print proba
         print "---------------\n\n"
 
-def train(filename,mm):
+def train(filename,mm,etatsIndex):
     data = read_abc_file(filename)
-    notes = convert_notes_id(data[0])
+    notes = convert_notes_id(etatsIndex,data[0])
     for i,note in enumerate(notes):
         if i == 0:
             continue
@@ -108,14 +107,29 @@ V:1"""
             output += "\n"
     return output
 
-files_list = ["cs1-1pre","cs1-2all","cs1-3cou","cs1-5men","cs1-4sar","cs1-6gig"]
-nb_files = len(files_list)
-for filename in files_list:
-    A = train("abc/" + filename + ".abc", A)
-for i,row in enumerate(A):
-    s = sum(row)
-    if s > 0:
-        A[i] = [row[j]/s for j in range(nbEtats)]
+def compose_new_piece(A, duration):
+    seed = len([name for name in os.listdir('output/') if os.path.isfile('output/'+name)])/4+1
+    write_abc(seed, convert_to_abc(compose(0,A,50)))
 
-seed = len([name for name in os.listdir('output/') if os.path.isfile('output/'+name)])/4+1
-write_abc(seed, convert_to_abc(compose(0,A,50)))
+def create_new_mm(files_list, name):
+    A = [[0. for i in range(nbEtats)] for j in range(nbEtats)]
+
+    N = len(A)
+    etats = range(N)
+    nb_files = len(files_list)
+    for filename in files_list:
+        A = train("abc/" + filename + ".abc", A, etatsIndex)
+    for i,row in enumerate(A):
+        s = sum(row)
+        if s > 0:
+            A[i] = [row[j]/s for j in range(nbEtats)]
+    with open("markovchains/" + name + ".mc", "w") as file:
+        pickle.dump(A, file)
+    return A
+
+def main():
+    files_list = ["cs1-1pre","cs1-2all","cs1-3cou","cs1-5men","cs1-4sar","cs1-6gig"]
+    create_new_mm(files_list, "suite_1_tonalite_sol")
+
+    files_list_all = ["cs1-1pre","cs2-1pretranspose","cs3-1pretranspose","cs4-1pretranspose","cs5-1pretranspose","cs6-1pretranspose"]
+    automate = create_new_mm(files_list_all, "suites_toutes_tonalite_sol")

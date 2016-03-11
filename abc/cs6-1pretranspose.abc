@@ -1,0 +1,346 @@
+X: 1
+T:from midi/cs6-1pre.mid
+M:12/8
+L:1/8
+Q:1/4=130
+K:Gmaj% 2 sharps
+% Cello Suite No 6 in D Major - Prelude
+% for Solo Cello BWV 1012
+% J.S. Bach
+V:1
+% Solo Cello
+%%MIDI program 42
+% Cello Suite No 6 in D Major - Prelude
+% for Solo Cello BWV 1012
+% J.S. Bach
+G,xG, G,xB, G,xD G,xG| \
+G,xG, G,xB, G,xD G,xG| \
+EG,C EFG DG,B, DFG| \
+EG,C EFG DG,B, DFG|
+CA,B, CG,B, CF,B, CD,C| \
+B,G,A, B,F,A, B,E,G, B,D,G,| \
+A,^C,G, A,D,F, G,D,F, G,^C,E,| \
+F,D,F, A,B,^C DF,A, ^CDE|
+FA,^C DFG ADF AB^c| \
+dDE FAE FdA FAF| \
+DdE FAE FdA FAF| \
+DxD DxF DxA Dxd|
+DxD DxF DxA Dxd| \
+BDG B^cd ADF A^cd| \
+BDG B^cd ADF A^cd| \
+GEF GDF G^CF GA,G|
+FDE F^CE FB,D FA,D| \
+=F^G,=F E=FD BD=F E=FD| \
+=CA,C E^F^G ACE ^GAB| \
+cE^G Acd eAc ef^g|
+aAB ceB cae cec| \
+AaB ceB cae cec| \
+Ax^G AxB cxB Ax^G| \
+Ax^G AxB cxB Ax^G|
+Axc ^GxB Axc ^GxB| \
+Axc Bxd cxA Bxd| \
+cxB cxd exd cxB| \
+cxB cxd exd cxB|
+cxe Bxd cxe Bxd| \
+cxA Bx^G Axc Bx^G| \
+Axc =GxB FxA ExG| \
+^DxF ^DxF B,cB AGF|
+GEB GEB GEF GAB| \
+CEG Be^d ecA gfe| \
+^dAf ^dAf ^dAB cBA| \
+GeB GeB Ge=d ^cde|
+_BGF G^C=B, ^CGF G_BG| \
+FAG FAE ^DEF =C=B,A,| \
+G,B,E =DCB, CA,G, F,G,A,| \
+^D,F,B, A,G,F, G,E,=D, ^C,D,E,|
+_B,,E,G, _B,,E,G, EFG F^DE| \
+=B,,E,G, B,,E,G, EFG F^DE| \
+=C,E,A, EFG F^DE _B^DE| \
+=BFG e=dc BAG =FAE|
+^DCB, A,G,^F, G,B,E B,E^D| \
+EB,A, G,B,F, G,E,G, B,EB,| \
+G,EB, G,B,F, G,E,G, B,=D^C| \
+DA,G, F,A,E, F,D,F, A,DA,|
+F,=CA, F,A,E, F,D,F, A,B,C| \
+B,DC B,DA, B,G,A, B,DE| \
+=FDC B,DA, B,G,B, DE=F| \
+ECD EGD EcG EGD|
+ECD EGD EcG ECG,| \
+C,xC, C,xE, C,xG, C,xC| \
+C,xC, C,xE, C,xG, C,xC| \
+A,C,=F, A,B,C G,C,E, G,B,C|
+A,C,=F, A,B,C G,C,E, G,B,C| \
+=F,D,E, =F,D,C, B,,D,E, =F,D,B,,| \
+G,,B,,D, =F,G,B, DGD B,G,=F,| \
+E,C,D, E,G,D, E,C,D, E,CD,|
+E,C,D, E,G,D, E,C,D, E,CA,| \
+^F,D,E, F,A,B, CA,G, F,A,E,| \
+F,D,E, F,A,B, CDE FGA| \
+B,G,A, B,DA, B,G,A, B,GA,|
+B,G,A, B,DA, B,G,A, B,GE| \
+^CA,B, ^CEF GED ^CEB,| \
+^CA,B, ^CEF GAB ^cde| \
+FDE FAB =cAG FAE|
+FDE FAB cde fga| \
+DBg BGA BgA BgG| \
+Dca cAB caB caA| \
+Ddb dBc dbc dbB|
+Dec' ecd ec'd ec'c| \
+Dfc' bag fba gfe| \
+dba bcB cag aBA| \
+Bgf gAG Afe fdB|
+Ged ecA Fdc dBG| \
+EcB cAF D3/2E/2>F/2[A/2G/2] [c/2-B/2]c/2AF| \
+DBA BGE C3/2D/2[F/2E/2]G/2 AFD| \
+B,GF GEC A,3/2B,/2[D/2C/2]E/2 FDB,|
+G,EC A,F,D E,CA, F,D,B,| \
+C,A,F, D,B,,G, A,,C,D, F,A,B,| \
+CDF Acd f3- f/2e/2d/2c/2B/2A/2| \
+d/2c/2B/2A/2G/2F/2 B/2A/2G/2F/2E/2D/2 G/2F/2E/2D/2^C/2B,/2 E/2D/2^C/2B,/2A,/2G,/2|
+F,/2A,/2D/2F/2A/2d/2 A/2F/2D/2A,/2F,/2D,/2 F,/2A,/2D/2F/2A/2d/2 A/2F/2D/2A,/2F,/2D,/2| \
+=C,/2A,/2D/2F/2A/2d/2 A/2F/2D/2A,/2F,/2D,/2 C,/2A,/2D/2F/2A/2d/2 A/2F/2D/2A,/2F,/2D,/2| \
+B,,/2D,/2E,/2=F,/2E,/2D,/2 G,,/2D,/2E,/2=F,/2E,/2D,/2 B,/2D/2E/2=F/2E/2D/2 B/2D/2E/2=F/2E/2D/2| \
+E/2G/2=F/2E/2D/2C/2 E/2D/2C/2B,/2A,/2G,/2 A,/2C/2B,/2A,/2G,/2^F,/2 B,/2A,/2G,/2F,/2E,/2D,/2|
+_B,/2A,/2G,/2A,/2_B,/2G,/2 ^C,/2G,/2A,/2_B,/2A,/2G,/2 E/2G,/2A,/2_B,/2A,/2G,/2 G/2G,/2A,/2_B,/2A,/2G,/2| \
+DxD DxF DxA Dxd| \
+DxD DxF DxA Dxd| \
+G,xG, G,x=B, G,xD G,xG|
+G,xG, G,xB, G,xD G,xG| \
+^C/2D/2E/2F/2G/2x/2 G/2x/2F/2x/2G/2x/2 G/2x/2F/2x/2G/2x/2 G/2x/2F/2x/2E/2x/2| \
+=C/2D/2F/2G/2x/2G/2 F/2x/2E/2x/2F/2x/2 F/2x/2E/2x/2F/2x/2 F/2x/2E/2x/2D/2x/2| \
+B,Ad GFE A,Gc FED|
+G,DB e^cd dB=c cA_B| \
+_BG^G ^GF=G Gx2 Gx2| \
+Gx2 Gx2 Gx2 Fx2| \
+G,=B,D GDB, G,B,D =FDB,|
+G,CE GEG cGc ecA| \
+^FAG AcB ced egf| \
+gdB dBG BGD GDB,| \
+DB,G, B,G,D, G,,D,B,2<G2|
+V:2
+% --------------------------------------
+%%MIDI program 42
+x
+% Cello Suite No 6 in D Major - Prelude
+% for Solo Cello BWV 1012
+% J.S. Bach
+G,x2G,x2G,x2G,x| \
+xG,x2G,x2G,x2G,x| \
+x12| \
+x12|
+x12| \
+x12| \
+x12| \
+x12|
+x12| \
+x12| \
+x12| \
+xDx2Dx2Dx2Dx|
+xDx2Dx2Dx2Dx| \
+x12| \
+x12| \
+x12|
+x12| \
+x12| \
+x12| \
+x12|
+x12| \
+x12| \
+xAx2Ax2Ax2Ax| \
+xAx2Ax2Ax2Ax|
+xAx2Ax2Ax2Ax| \
+xAx2Ax2Ax2Ax| \
+xAx2Ax2Ax2Ax| \
+xAx2Ax2Ax2Ax|
+xAx2Ax2Ax2Ax| \
+xAx2Ax2Ax2Ax| \
+xAx2Ax2Ax2Ax| \
+xAx2Ax6x|
+x12| \
+x12| \
+x12| \
+x12|
+x12| \
+x12| \
+x12| \
+x12|
+x12| \
+x12| \
+x12| \
+x12|
+x12| \
+x12| \
+x12| \
+x12|
+x12| \
+x12| \
+x12| \
+x12|
+x12| \
+xC,x2C,x2C,x2C,x| \
+xC,x2C,x2C,x2C,x| \
+x12|
+x12| \
+x12| \
+x12| \
+x12|
+x12| \
+x12| \
+x12| \
+x12|
+x12| \
+x12| \
+x12| \
+x12|
+x12| \
+x12| \
+x12| \
+x12|
+x12| \
+x12| \
+x12| \
+x12|
+x12| \
+x12| \
+x12| \
+x12|
+x12| \
+x12| \
+x12| \
+x12|
+x12| \
+x12| \
+x12| \
+x12|
+x12| \
+xDx2Dx2Dx2Dx| \
+xDx2Dx2Dx2Dx| \
+xG,x2G,x2G,x2G,x|
+xG,x2G,x2G,x2G,x| \
+x2x/2A/2 x/2A/2x/2A/2x/2A/2 x/2A/2x/2A/2x/2A/2 x/2A/2x/2A/2x/2A/2| \
+x2A/2xA/2x/2A/2x/2A/2 x/2A/2x/2A/2x/2A/2 x/2A/2x/2A/2x/2A/2| \
+x12|
+x12| \
+x6 ^Cx2 =Cx2| \
+B,x2 _B,x2 A,x2 A,
+V:3
+% Johann Sebastian Bach  (1685-1750)
+%%MIDI program 42
+x12
+%Error : Bar 202 is 11/4 not 12/8
+| \
+x12| \
+x12| \
+x12|
+x12| \
+x12| \
+x12| \
+x12|
+x12| \
+x12| \
+x12| \
+x12|
+x12| \
+x12| \
+x12| \
+x12|
+x12| \
+x12| \
+x12| \
+x12|
+x12| \
+x12| \
+x12| \
+x12|
+x12| \
+x12| \
+x12| \
+x12|
+x12| \
+x12| \
+x12| \
+x12|
+x12| \
+x12| \
+x12| \
+x12|
+x12| \
+x12| \
+x12| \
+x12|
+x12| \
+x12| \
+x12| \
+x12|
+x12| \
+x12| \
+x12| \
+x12|
+x12| \
+x12| \
+x12| \
+x12|
+x12| \
+x12| \
+x12| \
+x12|
+x12| \
+x12| \
+x12| \
+x12|
+x12| \
+x12| \
+x12| \
+x12|
+x12| \
+x12| \
+x12| \
+x12|
+x12| \
+x12| \
+x12| \
+x12|
+x12| \
+x12| \
+x12| \
+x12|
+x12| \
+x12| \
+x12| \
+x12|
+x12| \
+x12| \
+x12| \
+x12|
+x12| \
+x12| \
+x12| \
+x12|
+x12| \
+x12| \
+x12| \
+x12|
+x12| \
+x12| \
+x12| \
+x12|
+x12| \
+x6 
+% Cello Suite No 6 in D Major - Prelude
+% for Solo Cello BWV 1012
+% J.S. Bach
+E,x2 ^D,x2| \
+=D,x2 ^C,x2 D,x2 D,
+% Six Suites for Solo Cello
+% --------------------------------------
+% Suite No. 6 in D major - BWV 1012
+% 1st Movement: Prelude
+% --------------------------------------
+% Sequenced with Cakewalk Pro Audio by
+% David J. Grossman - dave@unpronounceable.com
+% This and other Bach MIDI files can be found at:
+% Dave's J.S. Bach Page
+% http://www.unpronounceable.com/bach
+% --------------------------------------
+% Original Filename: cs6-1pre.mid
+% Last Modified: February 22, 1997

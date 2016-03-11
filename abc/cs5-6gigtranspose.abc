@@ -1,0 +1,184 @@
+X: 1
+T:from midi/cs5-6gig.mid
+M:3/8
+L:1/16
+Q:1/4=250
+K:Gmaj% 3 flats
+% untitled
+% Copyright \0xa9 1996 by David J. Grossman
+% David J. Grossman
+% A
+% A'
+% B
+% B'
+V:1
+% Solo Cello
+%%MIDI program 42
+x4
+% untitled
+% Copyright \0xa9 1996 by David J. Grossman
+% David J. Grossman
+B,2| \
+% A
+G,3 A,F,2| \
+G,3 A,F,2| \
+E,3 D,C,B,,|
+C,3 E,B,,2| \
+A,,3 G,E,2| \
+F,3 G,E,2| \
+^D,3 F,B,,2|
+B,3 A,G,F,| \
+G,3 B,E,2| \
+C3 B,A,G,| \
+A,3 CF,2|
+=D3 CB,A,| \
+B,3 G,E2| \
+C3 A,F2| \
+G6-|
+G3 FED| \
+E3 DCB,| \
+C6-| \
+C3 B,A,G,|
+F,3 E,D,C,| \
+B,,3 CA,2| \
+B,3 DF,2| \
+G,3 B,,D,2|
+G,,4B,2| \
+% A'
+G,3 A,F,2| \
+G,3 A,F,2| \
+E,3 D,C,B,,|
+C,3 E,B,,2| \
+A,,3 G,E,2| \
+F,3 G,E,2| \
+^D,3 F,B,,2|
+B,3 A,G,F,| \
+G,3 B,E,2| \
+C3 B,A,G,| \
+A,3 CF,2|
+=D3 CB,A,| \
+B,3 G,E2| \
+C3 A,F2| \
+G6-|
+G3 FED| \
+E3 DCB,| \
+C6-| \
+C3 B,A,G,|
+F,3 E,D,C,| \
+B,,3 CA,2| \
+B,3 DF,2| \
+G,3 B,,D,2|
+G,,4G,2| \
+% B
+B,3 CA,2| \
+B,3 D^C2| \
+D3 F,G,A,|
+D,3 E,F,2| \
+G,3 E^C2| \
+D3 _B,=B,2| \
+_B,3 ^CF,2|
+F3 ED^C| \
+D3 F=B,2| \
+A,3 B,F,2| \
+G,3 B,E2|
+G4F2| \
+E3 _B,=B,2| \
+F,3 ^C_B,2| \
+=B,3 D,E,F,|
+B,,3 DB,2| \
+^G,3 B,D2| \
+=F3 DE2| \
+=C3 B,A,^G,|
+A,3 C=G,2| \
+^F,3 A,C2| \
+E3 CD2| \
+B,3 A,G,F,|
+G,3 B,D2| \
+^C3 A,G,F,| \
+G,3 ^CE2| \
+^D3 B,A,G,|
+A,3 ^DF2| \
+E3 B,G2| \
+F3 B,A2| \
+G6|
+^G6| \
+A3 F=G2| \
+F3 ^DE2| \
+^D3 EF2|
+B,3 A,G,F,| \
+G,2E4-| \
+E3 =D=CB,| \
+C3 B,A,^G,|
+A,6-| \
+A,3 =G,F,E,| \
+^D,3 C,B,,A,,| \
+G,,3 B,,^D,2|
+F,3 A,C2| \
+B,3 F,G,2| \
+B,,3 E,^D,2| \
+E,3 G,,B,,2|
+E,,4G,2| \
+% B'
+B,3 CA,2| \
+B,3 =D^C2| \
+D3 F,G,A,|
+D,3 E,F,2| \
+G,3 E^C2| \
+D3 _B,=B,2| \
+_B,3 ^CF,2|
+F3 ED^C| \
+D3 F=B,2| \
+A,3 B,F,2| \
+G,3 B,E2|
+G4F2| \
+E3 _B,=B,2| \
+F,3 ^C_B,2| \
+=B,3 D,E,F,|
+B,,3 DB,2| \
+^G,3 B,D2| \
+=F3 DE2| \
+=C3 B,A,^G,|
+A,3 C=G,2| \
+^F,3 A,C2| \
+E3 CD2| \
+B,3 A,G,F,|
+G,3 B,D2| \
+^C3 A,G,F,| \
+G,3 ^CE2| \
+^D3 B,A,G,|
+A,3 ^DF2| \
+E3 B,G2| \
+F3 B,A2| \
+G6|
+^G6| \
+A3 F=G2| \
+F3 ^DE2| \
+^D3 EF2|
+B,3 A,G,F,| \
+G,2E4-| \
+E3 =D=CB,| \
+C3 B,A,^G,|
+A,6-| \
+A,3 =G,F,E,| \
+^D,3 C,B,,A,,| \
+G,,3 B,,^D,2|
+F,3 A,C2| \
+B,3 F,G,2| \
+B,,3 E,^D,2| \
+E,3 G,,B,,2|
+E,,4
+% --------------------------------------
+% Johann Sebastian Bach  (1685-1750)
+% Six Suites for Solo Cello
+% --------------------------------------
+% Suite No. 5 in C minor - BWV 1011
+% 6th Movement: Gigue
+% --------------------------------------
+% Sequenced with Cakewalk Pro Audio by
+% David J. Grossman - dave@unpronounceable.com
+% This and other Bach MIDI files can be found at:
+% Dave's J.S. Bach Page
+% http://www.unpronounceable.com/bach
+% --------------------------------------
+% Original Filename: cs5-6gig.mid
+% Last Modified: February 22, 1997

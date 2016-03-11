@@ -1,0 +1,1145 @@
+X: 1
+T:from midi/cs5-1pre.mid
+M:4/4
+L:1/8
+Q:1/4=55
+K:Gmaj% 3 flats
+% untitled
+% Copyright \0xa9 1996 by David J. Grossman
+% David J. Grossman
+% *
+% *
+% *
+V:1
+% Solo Cello
+%%MIDI program 42
+% untitled
+% Copyright \0xa9 1996 by David J. Grossman
+% David J. Grossman
+E,2- E,/2B,,/2^C,/2^D,/2 E,/2F,/2G,/2A,/2 G,/2F,/2G,/2E,/2| \
+^D,3x4x| \
+E,2 x2 E,2- E,/2E,/2F,/2G,/2| \
+F,3F, ^G,2 x2|
+A,2 x2 A,3x| \
+A,2 x2 ^G,2 x2| \
+A,2 x2 A,3/2[=G,/2F,/2] [A,/2-G,/2]A,E,/2| \
+^D,3x4x|
+x8| \
+x8| \
+G3G F3/2E/2 [=D/2^C/2-]^CD/2| \
+^D3x4x|
+E2- E/2=D/2E/2^C<DB,<=FA,/2| \
+^G,2 x6| \
+x2 A,,3/2B,,<=C,D,<E,=G,,/2| \
+^F,,2 x6|
+G,,2 x6| \
+x8| \
+F2 x6| \
+x8|
+F,2 x6| \
+D2 x6| \
+x8| \
+x8|
+x8| \
+x4 B,2 _B,3/2=B,/2| \
+M:3/8
+L:1/8
+B,2B,| \
+CE,F,|
+G,B,/2A,/2B,/2G,/2| \
+A,^C,^D,| \
+E,G,/2F,/2G,/2E,/2| \
+F,/2G,/2A,/2B,/2=C|
+^D,B,,/2A,/2G,/2F,/2| \
+G,/2A,/2F,/2G,/2A,/2F,/2| \
+G,/2F,/2G,/2B,/2E/2F/2| \
+GB,^C|
+=DF/2E/2F/2D/2| \
+E^G,_B,| \
+=B,D/2^C/2D/2B,/2| \
+^C/2D/2E/2F/2B,/2=G/2|
+_B,/2G/2F/2E/2D/2^C/2| \
+D/2E/2^C/2D/2E/2^C/2| \
+D/2=B,/2F,/2G,/2A,/2F,/2| \
+^G,/2E/2B,/2=C/2D/2B,/2|
+C/2A,/2E,/2F,/2=G,/2E,/2| \
+F,/2G,/2A,/2B,/2C/2A,/2| \
+B,/2A,/2G,/2F,/2E,/2D,/2| \
+C,E,F,|
+G,B,,/2A,,/2B,,/2G,,/2| \
+A,,^C,^D,| \
+E,G,,/2F,,/2G,,/2E,,/2| \
+F,,/2G,,/2A,,/2B,,/2=C,/2A,,/2|
+^D,/2E,/2F,/2G,/2A,/2F,/2| \
+G,/2A,/2F,/2G,/2A,/2F,/2| \
+G,/2F,/2E,/2F,/2G,/2A,/2| \
+B,/2A,/2B,^C|
+=DF,/2E,/2F,/2D,/2| \
+E,/2F,/2^G,_B,| \
+=B,D,/2^C,/2D,/2B,,/2| \
+^C,/2D,/2E,/2F,/2=G,/2E,/2|
+_B,/2=B,/2^C/2D/2E/2^C/2| \
+D/2E/2^C/2D/2E/2^C/2| \
+D/2B,/2^C/2D/2E/2F/2| \
+G/2E,/2F,/2G,/2A,/2B,/2|
+=C/2A,/2B,/2C/2D/2E/2| \
+F/2D,/2E,/2F,/2G,/2A,/2| \
+B,/2G,/2A,/2B,/2C/2D/2| \
+E/2D/2C/2B,/2A,/2G,/2|
+C/2B,/2A,/2G,/2F,/2E,/2| \
+A,/2G,/2F,/2E,/2D,/2^C,/2| \
+G,/2F,/2E,/2D,/2D| \
+EG,/2B,/2A,/2=C/2|
+B,/2E/2D/2C/2D/2B,/2| \
+CE,/2G,/2F,/2A,/2| \
+G,/2C/2B,/2A,/2B,/2G,/2| \
+A,/2B,/2C/2D/2E|
+G,/2F,/2E,/2D,/2E,/2F,/2| \
+G,/2A,<A,G,/2| \
+G,B,/2A,/2B,/2G,/2| \
+DF,/2D/2^G,/2D/2|
+A,/2D/2C/2B,/2C/2A,/2| \
+E=G,/2E/2A,/2E/2| \
+B,/2E/2D/2C/2D/2B,/2| \
+GB,/2G/2C/2G/2|
+D/2F/2A,/2F/2B,/2F/2| \
+C/2E/2G,/2E/2A,/2E/2| \
+B,/2E/2^D/2^C/2^D/2B,/2| \
+=C/2=D/2EF|
+G/2C/2B,/2A,/2B,/2G,/2| \
+A,/2B,/2^C/2A,/2^D/2A,/2| \
+E/2A,/2G,/2F,/2G,/2E,/2| \
+F,/2G,/2A,/2F,/2^D,/2E,/2|
+F,/2^D,/2B,,/2^C,/2^D,/2A,,/2| \
+G,,/2B,,/2E,/2A,,/2B,,/2^D,/2| \
+^C,/2E,/2A,/2^D,/2E,/2G,/2| \
+F,/2A,/2=D/2^G,/2A,/2=C/2|
+A,/2B,/2=G,/2B,/2F,/2B,/2| \
+G,/2B,/2G,/2E/2G,/2D/2| \
+G,/2^C/2A,/2^C/2G,/2^C/2| \
+F,/2=C/2F,/2D/2F,/2C/2|
+G,/2C/2B,/2A,/2B,/2D/2| \
+GB,,^C,| \
+D,F/2E/2F/2D/2| \
+E^G,,_B,,|
+=B,,D/2^C/2D/2B,/2| \
+^C/2D/2E/2^C/2_B,/2=B,/2| \
+^C/2_B,/2F,/2^G,/2_B,/2E,/2| \
+D,/2F,/2=B,/2E,/2F,/2_B,/2|
+=B,,2F,| \
+F,3| \
+x3| \
+x3|
+x3| \
+x
+% *
+F,/2=G,/2F,/2G,/2| \
+A,/2B,/2A,/2B,/2=C/2A,/2| \
+^D/2A,/2F/2C/2B,/2A,/2|
+G,/2B,/2F,/2G,/2A,/2F,/2| \
+G,/2E,/2^D,/2E,/2F,/2^D,/2| \
+E,/2G,/2F,/2G,/2A,/2F,/2| \
+^G,/2=D,/2C,/2D,/2E,/2C,/2|
+D,/2A,/2^G,/2A,/2B,/2^G,/2| \
+A,/2C,/2B,,/2C,/2D,/2B,,/2| \
+C,/2B,/2A,/2B,/2C/2A,/2| \
+B,/2^G,,/2F,,/2^G,,/2A,,/2F,,/2|
+^G,,/2A,,/2B,,/2C,/2D,/2B,,/2| \
+C,/2B,,/2C,/2D,/2E,/2F,/2| \
+^G,/2A,/2B,/2C/2D/2B,/2| \
+C/2B,/2A,/2^G,/2A,/2B,/2|
+C/2D/2E/2=F/2D/2E/2| \
+=F/2D/2A,/2C/2B,/2D/2| \
+C/2=F/2E/2D/2E/2C/2| \
+D/2B,/2^F,/2A,/2^G,/2B,/2|
+A,/2D/2C/2B,/2C/2A,/2| \
+B,/2C/2D/2B,/2^G,/2A,/2| \
+B,/2^G,/2E,/2F,/2^G,/2D,/2| \
+C,/2E,/2A,/2D,/2E,/2^G,/2|
+A,A,,C| \
+C3| \
+x3| \
+x3|
+x3| \
+x=G,/2E,/2G,/2E,/2| \
+C,/2B,/2G,/2E,/2G,/2E,/2| \
+C,/2D/2C/2B,/2A,/2G,/2|
+A,/2G,/2F,/2A,/2G,/2B,/2| \
+A,3| \
+x3| \
+x3|
+x3| \
+x3| \
+x3| \
+x3|
+x3| \
+x3| \
+x3| \
+x3|
+x3| \
+x3| \
+x3| \
+x3|
+x3| \
+x3| \
+x3| \
+x3|
+x3| \
+x3| \
+x3| \
+x3|
+x3| \
+x3| \
+xA,/2G,/2A,/2F,/2| \
+G,/2B,/2E/2G,/2A,/2G,/2|
+F,/2A,/2^D/2C/2B,/2A,/2| \
+G,/2B,/2E/2G,/2A,/2G,/2| \
+F,/2E/2^D/2F/2B,| \
+CE,F,|
+G,B,/2A,/2B,/2G,/2| \
+A,^C,^D,| \
+E,G,/2F,/2G,/2E,/2| \
+F,/2G,/2A,/2B,/2=C/2A,/2|
+E/2^D/2^C/2B,/2E/2^D/2| \
+E/2F<FE/2| \
+E/2=D/2=C/2B,/2C/2A,/2| \
+^G,/2=F/2E/2D/2C/2B,/2|
+C/2B,/2A,/2^F,/2=G,/2E,/2| \
+^D,/2C/2B,/2A,/2G,/2F,/2| \
+G,/2F,/2E,/2^C,/2=D,/2B,,/2| \
+_B,,/2G,/2F,/2E,/2^D,/2^C,/2|
+^D,/2^C,/2=B,,/2^D,/2F,/2A,/2| \
+=C/2B,/2B,/2A,/2A,/2G,/2| \
+G,/2E,/2B,,/2E,/2G,/2B,/2| \
+E/2=D/2D/2^C/2^C/2E/2|
+_B,/2E,/2=B,,/2E,/2_B,/2^C/2| \
+E/2>F/2[G/2F/2]E/2E/2^D/2| \
+^D/2F/2^D/2=B,/2F,/2B,,/2| \
+A,,E/2^D/2^C/2B,/2|
+EG,,A,,| \
+B,,=D/2=C/2D/2B,/2| \
+CE,,F,,| \
+G,,B,/2A,/2B,/2G,/2|
+A,^C,^D,| \
+E,G,/2F,/2G,/2E,/2| \
+A,,=F/2E/2^D/2E/2| \
+=C/2B,/2_B,/2=B,/2G,/2^F,/2|
+E,/2G,/2=F,/2E,/2^D,/2E,/2| \
+_B,,/2=B,,/2^C,/2^D,/2E,/2^F,/2| \
+G,/2F,/2E,/2F,/2G,/2A,/2| \
+B,/2F,/2G,/2E,/2B,,/2^D,/2|
+E,,3| \
+E,,x2| \
+E,,x2| \
+E,,x2|
+E,,x2| \
+E,,x2| \
+F,,x2| \
+G,,x2|
+^G,,x2| \
+x3| \
+% *
+_B,,x2| \
+x3|
+x3| \
+x3| \
+% *
+=B,,3|
+V:2
+% --------------------------------------
+%%MIDI program 42
+x3| \
+x4 x
+% untitled
+% Copyright \0xa9 1996 by David J. Grossman
+% David J. Grossman
+=C3C B,C/2A,/2 =G,A,/2F,/2
+%Error : Bar 224 is 13/8 not 3/8
+| \
+G,4 x4
+%Error : Bar 225 is 1/1 not 3/8
+| \
+^D,4 =D,2- D,/2C,/2D,/2B,,/2
+%Error : Bar 226 is 1/1 not 3/8
+|
+C,2 x2 C,3x
+%Error : Bar 227 is 1/1 not 3/8
+| \
+B,,2 x6
+%Error : Bar 228 is 1/1 not 3/8
+| \
+x8
+%Error : Bar 229 is 1/1 not 3/8
+| \
+A,3B,/2C<B,A,<G,F,/2
+%Error : Bar 230 is 1/1 not 3/8
+|
+G,2- G,/2A,/2[G,/2F,/2]G,/2 G,3F,
+%Error : Bar 231 is 1/1 not 3/8
+| \
+F,2- F,/2F,/2^G,/2_B,/2 =B,/2^C/2D/2E/2 D/2^C/2D/2B,/2
+%Error : Bar 232 is 1/1 not 3/8
+| \
+_B,3x4x
+%Error : Bar 233 is 1/1 not 3/8
+| \
+A,3=G,/2F,<G,=B,<EG,/2
+%Error : Bar 234 is 1/1 not 3/8
+|
+F,2 x6
+%Error : Bar 235 is 1/1 not 3/8
+| \
+=F2- =F/2E/2D/2=C<B,C<DB,/2
+%Error : Bar 236 is 1/1 not 3/8
+| \
+C2 x6
+%Error : Bar 237 is 1/1 not 3/8
+| \
+C2- C/2D/2C/2D/2 D3C
+%Error : Bar 238 is 1/1 not 3/8
+|
+B,2- B,/2A,/2G,/2^F,/2 G,/2A,/2B,/2C/2 D/2E/2F/2D/2
+%Error : Bar 239 is 1/1 not 3/8
+| \
+G2 x3/2F<ED<^CB,/2
+%Error : Bar 240 is 1/1 not 3/8
+| \
+_B,2- _B,/2E,/2D,/2^C,<D,=B,<^C,B,,/2
+%Error : Bar 241 is 1/1 not 3/8
+| \
+_B,,3/2^C<DE<F,E<D^C/2
+%Error : Bar 242 is 1/1 not 3/8
+|
+D2- D/2=B,/2A,/2G,/2 F,/2E,/2D,/2^C,/2 D,/2B,,/2^C,/2D,/2
+%Error : Bar 243 is 1/1 not 3/8
+| \
+G,2- G,/2F,/2E,/2D,/2 E,/2D/2^C/2D/2 E/2^C/2D/2E/2
+%Error : Bar 244 is 1/1 not 3/8
+| \
+_B,/2=B,/2_B,/2=B,/2 ^C/2_B,/2=B,/2^C/2 E,/2F,/2E,/2F,/2 G,/2E,/2F,/2G,/2
+%Error : Bar 245 is 1/1 not 3/8
+| \
+^C,/2D,/2^C,/2D,/2 E,/2^C,/2D,/2E,/2 F,,/2^G,,/2_B,,/2=B,,/2 ^C,/2D,/2E,/2^C,/2
+%Error : Bar 246 is 1/1 not 3/8
+|
+D,/2F,/2^G,/2_B,/2 =B,/2^C/2D/2E/2 F2- F/2E/2D/2^C/2
+%Error : Bar 247 is 1/1 not 3/8
+| \
+D3/2_B,<=B,E,/2 F,2 x2
+%Error : Bar 248 is 1/1 not 3/8
+| \
+M:3/8
+L:1/8
+F,2x| \
+x3|
+x3| \
+x3| \
+x3| \
+x3|
+x3| \
+x3| \
+x3| \
+x3|
+x3| \
+x3| \
+x3| \
+x3|
+x3| \
+B,F,2| \
+x3| \
+x3|
+x3| \
+x3| \
+x3| \
+x3|
+x3| \
+x3| \
+x3| \
+x3|
+x3| \
+E,B,,2| \
+x3| \
+x3|
+x3| \
+x3| \
+x3| \
+x3|
+x3| \
+B,F,2| \
+B,,/2x2x/2| \
+x3|
+x3| \
+x3| \
+x3| \
+x3|
+x3| \
+x3| \
+x3| \
+x3|
+x3| \
+x3| \
+x3| \
+x3|
+x3| \
+xD,2| \
+D,x2| \
+x3|
+x3| \
+x3| \
+x3| \
+x3|
+x3| \
+x3| \
+x3| \
+x3|
+x3| \
+x3| \
+x3| \
+x3|
+x3| \
+x3| \
+x3| \
+x3|
+x3| \
+x3| \
+x3| \
+x3|
+x3| \
+x3| \
+x3| \
+x3|
+x3| \
+x3| \
+x3| \
+x3|
+x3| \
+xE,/2D,/2E,/2^C,/2| \
+D,/2F,/2B,/2^G,/2A,/2F,/2| \
+^G,/2E,/2D,/2
+% *
+^C,/2D,/2B,,/2|
+=C,/2E,/2A,/2F,/2=G,/2E,/2| \
+^D,3| \
+x3| \
+x3|
+x3| \
+x3| \
+x3| \
+x3|
+x3| \
+x3| \
+x3| \
+x3|
+x3| \
+x3| \
+x3| \
+x3|
+x3| \
+x3| \
+x3| \
+x3|
+x3| \
+x3| \
+x3| \
+x3|
+x3| \
+xA,/2F,/2A,/2F,/2| \
+=D,/2C/2A,/2F,/2A,/2F,/2| \
+D,/2E/2D/2C/2B,/2A,/2|
+B,/2A,/2G,/2B,/2A,/2C/2| \
+B,3| \
+x3| \
+x3|
+x3| \
+xF/2^D/2F/2^D/2| \
+B,/2A,/2F,/2^D,/2F,/2^D,/2| \
+B,,/2C/2B,/2A,/2G,/2F,/2|
+G,/2F,/2G,/2A,/2B,/2B,,/2| \
+C,EF| \
+GB,,/2A,,/2B,,/2G,,/2| \
+A,,^C^D|
+EG,,/2F,,/2G,,/2E,,/2| \
+F,,/2E,/2^D,/2^C,/2B,,/2A,/2| \
+G,/2F,/2E/2^D/2^C/2B,/2| \
+E/2B,/2=C/2A,/2B,/2F,/2|
+G,/2F,/2E,/2G,/2F,/2A,/2| \
+G,/2E/2B,/2G,/2A,/2F,/2| \
+G,/2F,/2E,/2G,/2B,,/2=D,/2| \
+^C,/2E,/2A,/2F,/2G,/2E,/2|
+F,/2E,/2D,/2F,/2E,/2G,/2| \
+F,/2A,/2D/2B,/2=C/2A,/2| \
+B,/2A,/2G,/2B,/2A,/2C/2| \
+B,/2D/2G/2E/2F/2^D/2|
+E/2=D/2C/2E/2B,/2E/2| \
+A,/2G/2F/2^D/2E/2F/2| \
+B,/2G/2F/2^D/2E/2F/2| \
+C/2G/2F/2^D/2E/2F/2|
+_B,/2G/2F/2^D/2E/2F/2| \
+=B,/2G/2F/2^D/2E/2F/2| \
+B,,3| \
+B,,x2|
+B,,x2| \
+B,,x2| \
+x3| \
+x3|
+x3| \
+x3| \
+x3| \
+x3|
+x3| \
+xB,2| \
+x3| \
+x3|
+x3| \
+x3| \
+x3| \
+x3|
+x3| \
+x3| \
+x3| \
+x3|
+x3| \
+x3| \
+x3| \
+x3|
+x3| \
+x3| \
+x3| \
+x3|
+x3| \
+x3| \
+x3| \
+x3|
+x3| \
+x3| \
+x3| \
+x3|
+x=D,/2C,/2D,/2B,,/2| \
+C,/2E,/2A,/2C,/2D,/2C,/2| \
+B,,/2D,/2^G,/2=F,/2E,/2D,/2| \
+C,/2E,/2A,/2C,/2D,/2C,/2|
+B,,/2D,/2^G,/2=F,/2E,/2D,/2| \
+C,/2E,/2A,/2^F,/2=G,/2E,/2| \
+^D,/2G,/2F,/2E,/2^D,/2^C,/2| \
+B,,/2B,/2A,/2G,/2F,/2E,/2|
+E,x2| \
+A,,/2^C/2B,/2A,/2G,/2F,/2| \
+% *
+E,x2| \
+B,,/2G/2F/2>
+% *
+E/2[E/2^D/2]B,/2|
+=C/2_B,/2=B,/2F,/2G,/2^D,/2| \
+E,/2_B,,/2=B,,B,,| \
+E,,3|
+V:3
+% Johann Sebastian Bach  (1685-1750)
+%%MIDI program 42
+x3| \
+x4 x
+% untitled
+% Copyright \0xa9 1996 by David J. Grossman
+% David J. Grossman
+A,3x4x
+%Error : Bar 447 is 13/8 not 3/8
+| \
+x8
+%Error : Bar 448 is 1/1 not 3/8
+| \
+x8
+%Error : Bar 449 is 1/1 not 3/8
+|
+x4 E3E
+%Error : Bar 450 is 1/1 not 3/8
+| \
+E2- E/2E/2=D/2C<DB,<CD/2
+%Error : Bar 451 is 1/1 not 3/8
+| \
+C2 x6
+%Error : Bar 452 is 1/1 not 3/8
+| \
+x8
+%Error : Bar 453 is 1/1 not 3/8
+|
+B,,2 x6
+%Error : Bar 454 is 1/1 not 3/8
+| \
+B,,2 x6
+%Error : Bar 455 is 1/1 not 3/8
+| \
+B,,3x4x
+%Error : Bar 456 is 1/1 not 3/8
+| \
+B,,3x4x
+%Error : Bar 457 is 1/1 not 3/8
+|
+B,,2 x6
+%Error : Bar 458 is 1/1 not 3/8
+| \
+B,,2 x6
+%Error : Bar 459 is 1/1 not 3/8
+| \
+A,2 x6
+%Error : Bar 460 is 1/1 not 3/8
+| \
+D,2 x6
+%Error : Bar 461 is 1/1 not 3/8
+|
+D,2 x6
+%Error : Bar 462 is 1/1 not 3/8
+| \
+x8
+%Error : Bar 463 is 1/1 not 3/8
+| \
+x8
+%Error : Bar 464 is 1/1 not 3/8
+| \
+x8
+%Error : Bar 465 is 1/1 not 3/8
+|
+B,,2 x6
+%Error : Bar 466 is 1/1 not 3/8
+| \
+B,,2 x6
+%Error : Bar 467 is 1/1 not 3/8
+| \
+x8
+%Error : Bar 468 is 1/1 not 3/8
+| \
+x8
+%Error : Bar 469 is 1/1 not 3/8
+|
+x8
+%Error : Bar 470 is 1/1 not 3/8
+| \
+x8
+%Error : Bar 471 is 1/1 not 3/8
+| \
+M:3/8
+L:1/8
+B,,2x| \
+x3|
+x3| \
+x3| \
+x3| \
+x3|
+x3| \
+x3| \
+x3| \
+x3|
+x3| \
+x3| \
+x3| \
+x3|
+x3| \
+x3| \
+x3| \
+x3|
+x3| \
+x3| \
+x3| \
+x3|
+x3| \
+x3| \
+x3| \
+x3|
+x3| \
+x3| \
+x3| \
+x3|
+x3| \
+x3| \
+x3| \
+x3|
+x3| \
+x3| \
+F,/2x2x/2| \
+x3|
+x3| \
+x3| \
+x3| \
+x3|
+x3| \
+x3| \
+x3| \
+x3|
+x3| \
+x3| \
+x3| \
+x3|
+x3| \
+x3| \
+G,,x2| \
+x3|
+x3| \
+x3| \
+x3| \
+x3|
+x3| \
+x3| \
+x3| \
+x3|
+x3| \
+x3| \
+x3| \
+x3|
+x3| \
+x3| \
+x3| \
+x3|
+x3| \
+x3| \
+x3| \
+x3|
+x3| \
+x3| \
+x3| \
+x3|
+x3| \
+x3| \
+x3| \
+x3|
+x3| \
+x3| \
+x3| \
+x3|
+x3| \
+x3| \
+x3| \
+x3|
+x3| \
+x3| \
+x3| \
+x3|
+x3| \
+x3| \
+x3| \
+x3|
+x3| \
+x3| \
+x3| \
+x3|
+x3| \
+x3| \
+x3| \
+x3|
+x3| \
+x3| \
+x3| \
+x3|
+x3| \
+x3| \
+x3| \
+x3|
+x3| \
+x3| \
+x3| \
+x3|
+x3| \
+x3| \
+x3| \
+x3|
+x3| \
+x3| \
+x3| \
+x3|
+x3| \
+x3| \
+x3| \
+x3|
+x3| \
+x3| \
+x3| \
+x3|
+x3| \
+x3| \
+x3| \
+x3|
+x3| \
+x3| \
+x3| \
+x3|
+x3| \
+x3| \
+x3| \
+x3|
+x3| \
+x3| \
+x3| \
+x3|
+x3| \
+x3| \
+x3| \
+x3|
+x3| \
+x3| \
+x3| \
+x3|
+x3| \
+x3| \
+x3| \
+x3|
+x3| \
+x3| \
+x3| \
+x3|
+x3| \
+x3| \
+x3| \
+x3|
+x3| \
+x3| \
+x3| \
+x3|
+x3| \
+x3| \
+x3| \
+x3|
+x3| \
+x3| \
+x3| \
+x3|
+x3| \
+x3| \
+x3| \
+x3|
+x3| \
+x3| \
+x3| \
+x3|
+% *
+B,x2| \
+x3| \
+% *
+G,x2| \
+x3|
+x3| \
+x2
+% *
+A,| \
+^G,3|
+V:4
+% Six Suites for Solo Cello
+%%MIDI program 42
+% untitled
+% Copyright \0xa9 1996 by David J. Grossman
+% David J. Grossman
+E,,2 x6
+%Error : Bar 669 is 1/1 not 3/8
+| \
+E,,3x4x
+%Error : Bar 670 is 1/1 not 3/8
+| \
+x2 E,,2 x4
+%Error : Bar 671 is 1/1 not 3/8
+| \
+x8
+%Error : Bar 672 is 1/1 not 3/8
+|
+x2 E,,2 x4
+%Error : Bar 673 is 1/1 not 3/8
+| \
+E,,2 x6
+%Error : Bar 674 is 1/1 not 3/8
+| \
+x2 E,,2 x4
+%Error : Bar 675 is 1/1 not 3/8
+| \
+x8
+%Error : Bar 676 is 1/1 not 3/8
+|
+E,,2 x6
+%Error : Bar 677 is 1/1 not 3/8
+| \
+x8
+%Error : Bar 678 is 1/1 not 3/8
+| \
+x8
+%Error : Bar 679 is 1/1 not 3/8
+| \
+x8
+%Error : Bar 680 is 1/1 not 3/8
+|
+x8
+%Error : Bar 681 is 1/1 not 3/8
+| \
+x8
+%Error : Bar 682 is 1/1 not 3/8
+| \
+x8
+%Error : Bar 683 is 1/1 not 3/8
+| \
+A,2 x6
+%Error : Bar 684 is 1/1 not 3/8
+|
+=G,2 x6
+%Error : Bar 685 is 1/1 not 3/8
+| \
+x2 E,,3/2x4x/2
+%Error : Bar 686 is 1/1 not 3/8
+| \
+x8
+%Error : Bar 687 is 1/1 not 3/8
+| \
+x8
+%Error : Bar 688 is 1/1 not 3/8
+|
+x8
+%Error : Bar 689 is 1/1 not 3/8
+| \
+E,,2 x6
+%Error : Bar 690 is 1/1 not 3/8
+| \
+x8
+%Error : Bar 691 is 1/1 not 3/8
+| \
+x8
+%Error : Bar 692 is 1/1 not 3/8
+|
+x8
+%Error : Bar 693 is 1/1 not 3/8
+| \
+x8
+%Error : Bar 694 is 1/1 not 3/8
+| \
+x8
+%Error : Bar 695 is 1/1 not 3/8
+| \
+x8
+%Error : Bar 696 is 1/1 not 3/8
+|
+x8
+%Error : Bar 697 is 1/1 not 3/8
+| \
+x8
+%Error : Bar 698 is 1/1 not 3/8
+| \
+x8
+%Error : Bar 699 is 1/1 not 3/8
+| \
+x8
+%Error : Bar 700 is 1/1 not 3/8
+|
+x8
+%Error : Bar 701 is 1/1 not 3/8
+| \
+x8
+%Error : Bar 702 is 1/1 not 3/8
+| \
+x8
+%Error : Bar 703 is 1/1 not 3/8
+| \
+x8
+%Error : Bar 704 is 1/1 not 3/8
+|
+x8
+%Error : Bar 705 is 1/1 not 3/8
+| \
+x8
+%Error : Bar 706 is 1/1 not 3/8
+| \
+x8
+%Error : Bar 707 is 1/1 not 3/8
+| \
+x8
+%Error : Bar 708 is 1/1 not 3/8
+|
+x8
+%Error : Bar 709 is 1/1 not 3/8
+| \
+x8
+%Error : Bar 710 is 1/1 not 3/8
+| \
+x8
+%Error : Bar 711 is 1/1 not 3/8
+| \
+x8
+%Error : Bar 712 is 1/1 not 3/8
+|
+x8
+%Error : Bar 713 is 1/1 not 3/8
+| \
+x8
+%Error : Bar 714 is 1/1 not 3/8
+| \
+x8
+%Error : Bar 715 is 1/1 not 3/8
+| \
+x8
+%Error : Bar 716 is 1/1 not 3/8
+|
+x8
+%Error : Bar 717 is 1/1 not 3/8
+| \
+x8
+%Error : Bar 718 is 1/1 not 3/8
+| \
+x8
+%Error : Bar 719 is 1/1 not 3/8
+| \
+x8
+%Error : Bar 720 is 1/1 not 3/8
+|
+x8
+%Error : Bar 721 is 1/1 not 3/8
+| \
+x8
+%Error : Bar 722 is 1/1 not 3/8
+| \
+x8
+%Error : Bar 723 is 1/1 not 3/8
+| \
+x8
+%Error : Bar 724 is 1/1 not 3/8
+|
+x8
+%Error : Bar 725 is 1/1 not 3/8
+| \
+x8
+%Error : Bar 726 is 1/1 not 3/8
+| \
+x8
+%Error : Bar 727 is 1/1 not 3/8
+| \
+x8
+%Error : Bar 728 is 1/1 not 3/8
+|
+x8
+%Error : Bar 729 is 1/1 not 3/8
+| \
+x8
+%Error : Bar 730 is 1/1 not 3/8
+| \
+x8
+%Error : Bar 731 is 1/1 not 3/8
+| \
+x8
+%Error : Bar 732 is 1/1 not 3/8
+|
+x8
+%Error : Bar 733 is 1/1 not 3/8
+| \
+x8
+%Error : Bar 734 is 1/1 not 3/8
+| \
+x8
+%Error : Bar 735 is 1/1 not 3/8
+| \
+x8
+%Error : Bar 736 is 1/1 not 3/8
+|
+x8
+%Error : Bar 737 is 1/1 not 3/8
+| \
+x8
+%Error : Bar 738 is 1/1 not 3/8
+| \
+x8
+%Error : Bar 739 is 1/1 not 3/8
+| \
+x8
+%Error : Bar 740 is 1/1 not 3/8
+|
+x8
+%Error : Bar 741 is 1/1 not 3/8
+| \
+x8
+%Error : Bar 742 is 1/1 not 3/8
+| \
+x8
+%Error : Bar 743 is 1/1 not 3/8
+| \
+x8
+%Error : Bar 744 is 1/1 not 3/8
+|
+x8
+%Error : Bar 745 is 1/1 not 3/8
+| \
+x8
+%Error : Bar 746 is 1/1 not 3/8
+| \
+x8
+%Error : Bar 747 is 1/1 not 3/8
+| \
+x8
+%Error : Bar 748 is 1/1 not 3/8
+|
+x8
+%Error : Bar 749 is 1/1 not 3/8
+| \
+x8
+%Error : Bar 750 is 1/1 not 3/8
+| \
+x8
+%Error : Bar 751 is 1/1 not 3/8
+| \
+x8
+%Error : Bar 752 is 1/1 not 3/8
+|
+x8
+%Error : Bar 753 is 1/1 not 3/8
+| \
+x8
+%Error : Bar 754 is 1/1 not 3/8
+| \
+x8
+%Error : Bar 755 is 1/1 not 3/8
+| \
+x8
+%Error : Bar 756 is 1/1 not 3/8
+|
+x8
+%Error : Bar 757 is 1/1 not 3/8
+| \
+x8
+%Error : Bar 758 is 1/1 not 3/8
+| \
+x8
+%Error : Bar 759 is 1/1 not 3/8
+| \
+x8
+%Error : Bar 760 is 1/1 not 3/8
+|
+x8
+%Error : Bar 761 is 1/1 not 3/8
+| \
+x8
+%Error : Bar 762 is 1/1 not 3/8
+| \
+x8
+%Error : Bar 763 is 1/1 not 3/8
+| \
+x8
+%Error : Bar 764 is 1/1 not 3/8
+|
+x8
+%Error : Bar 765 is 1/1 not 3/8
+| \
+x2 
+M:3/8
+L:1/8
+% *
+D| \
+x3| \
+x2
+% *
+E|
+x3| \
+x3| \
+x3| \
+x
+% *
+^DE-|
+E2
+% --------------------------------------
+% Suite No. 5 in C minor - BWV 1011
+% 1st Movement: Prelude
+% --------------------------------------
+% Sequenced with Cakewalk Pro Audio by
+% David J. Grossman - dave@unpronounceable.com
+% This and other Bach MIDI files can be found at:
+% Dave's J.S. Bach Page
+% http://www.unpronounceable.com/bach
+% --------------------------------------
+% Original Filename: cs5-1pre.mid
+% Last Modified: February 22, 1997

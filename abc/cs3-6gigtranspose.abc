@@ -1,0 +1,950 @@
+X: 1
+T:from midi/cs3-6gig.mid
+M:3/8
+L:1/16
+Q:1/4=250
+K:Gmaj% 0 sharps
+% untitled
+% Copyright \0xa9 1996 by David J. Grossman
+% David J. Grossman
+% A
+% A'
+% B
+% *
+% B'
+V:1
+% Solo Cello
+%%MIDI program 42
+x4
+% untitled
+% Copyright \0xa9 1996 by David J. Grossman
+% David J. Grossman
+D2| \
+% A
+G2G, A,B,C| \
+D2E2F2| \
+G2D2B2|
+G2D2B2| \
+AGA Bc2| \
+F2G2B,2| \
+D,2A,2G2|
+F2D2A2| \
+A2^C2D2| \
+B,2B AGF| \
+G2E, F,G,A,|
+B,2E,2G2| \
+G2B,2^C2| \
+A,2A GFE| \
+F2D, E,F,G,|
+A,2D,2F2| \
+F2A,2B,2| \
+G,2G FED| \
+^CED ^CB,A,|
+A,4A,2| \
+G,xF, xE,x| \
+F,xE, xF,x| \
+G,xF, xE,x|
+F,xE, xD,x| \
+=CxB, xA,x| \
+B,xA, xB,x| \
+CxB, xA,x|
+B,x^C xDx| \
+^CxD xEx| \
+DxE xFx| \
+ExF xG2|
+A,4E2| \
+GA^A2=A2| \
+G2^E2=E2| \
+^c2d2E2|
+^c2d2E2| \
+GA^A2=A2| \
+G2^E2=E2| \
+^G2A2E2|
+^G2A2A,2| \
+D,F,A,2B,2| \
+E,=G,B,2^C2| \
+F,A,D B,=CA,|
+G,B,E FGE| \
+AE^C B,A,G,| \
+F,A,D F,E,^C| \
+D2A,2F,2|
+D,4D2| \
+% A'
+G2G, A,B,=C| \
+D2E2F2| \
+G2D2B2|
+G2D2B2| \
+AGA Bc2| \
+F2G2B,2| \
+D,2A,2G2|
+F2D2A2| \
+A2^C2D2| \
+B,2B AGF| \
+G2E, F,G,A,|
+B,2E,2G2| \
+G2B,2^C2| \
+A,2A GFE| \
+F2D, E,F,G,|
+A,2D,2F2| \
+F2A,2B,2| \
+G,2G FED| \
+^CED ^CB,A,|
+A,4A,2| \
+G,xF, xE,x| \
+F,xE, xF,x| \
+G,xF, xE,x|
+F,xE, xD,x| \
+=CxB, xA,x| \
+B,xA, xB,x| \
+CxB, xA,x|
+B,x^C xDx| \
+^CxD xEx| \
+DxE xFx| \
+ExF xG2|
+A,4E2| \
+GA^A2=A2| \
+G2^E2=E2| \
+^c2d2E2|
+^c2d2E2| \
+GA^A2=A2| \
+G2^E2=E2| \
+^G2A2E2|
+^G2A2A,2| \
+D,F,A,2B,2| \
+E,=G,B,2^C2| \
+F,A,D B,=CA,|
+G,B,E FGE| \
+AE^C B,A,G,| \
+F,A,D F,E,^C| \
+D2A,2F,2|
+D,4AG| \
+% B
+FGE FDE| \
+=CDB, CA,B,| \
+G,DE FGA|
+B2G,,2B2| \
+CEF GAG| \
+A,^C^D EFE| \
+^D^C^D EF^D|
+B,4F2| \
+G2B,2=C2| \
+A,2A GFE| \
+F2=D, E,F,G,|
+A,2D,2^E2| \
+^E2A,2B,2| \
+G,2G ^E=ED| \
+E2C, D,E,^E,|
+G,2C,2=E2| \
+C2^G,2A,2| \
+^E2^D2=E2| \
+ABc2^D2|
+A,4c2| \
+B2A =GFE| \
+FAG EF^D| \
+E2B,2G,2|
+E,4G2| \
+G4x2| \
+x4G2| \
+F4x2|
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+xEx ExE| \
+xEx ExE| \
+xGx GxG|
+xGx GxG| \
+FxE xFx| \
+GxF xEx| \
+FxA xc2|
+x4A,2| \
+=D,2D,2D,2| \
+D,2D,2D,2| \
+D,4D,2|
+D,4D,2| \
+D,2D,2D,2| \
+D,2D,2D,2| \
+D,4D,2|
+D,2x4| \
+x6| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+% *
+B,4AG| \
+% B'
+FGE FDE| \
+CDB, CA,B,| \
+G,DE FGA|
+B2G,,2B2| \
+CEF GAG| \
+A,^C^D EFE| \
+^D^C^D EF^D|
+B,4F2| \
+G2B,2=C2| \
+A,2A GFE| \
+F2=D, E,F,G,|
+A,2D,2^E2| \
+^E2A,2B,2| \
+G,2G ^E=ED| \
+E2C, D,E,^E,|
+G,2C,2=E2| \
+C2^G,2A,2| \
+^E2^D2=E2| \
+ABc2^D2|
+A,4c2| \
+B2A =GFE| \
+FAG EF^D| \
+E2B,2G,2|
+E,4G2| \
+G4x2| \
+x4G2| \
+F4x2|
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+xEx ExE| \
+xEx ExE| \
+xGx GxG|
+xGx GxG| \
+FxE xFx| \
+GxF xEx| \
+FxA xc2|
+x4A,2| \
+=D,2D,2D,2| \
+D,2D,2D,2| \
+D,4D,2|
+D,4D,2| \
+D,2D,2D,2| \
+D,2D,2D,2| \
+D,4D,2|
+D,2x4| \
+x6| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+B,4
+V:2
+% --------------------------------------
+%%MIDI program 42
+x6
+%Error : Bar 216 is 5/8 not 3/8
+| \
+x6| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+x
+% untitled
+% Copyright \0xa9 1996 by David J. Grossman
+% David J. Grossman
+% A
+A,x A,xA,| \
+xA,x A,xA,| \
+xA,x A,xA,|
+xA,x A,xA,| \
+xD,x D,xD,| \
+xD,x D,xD,| \
+xD,x D,xD,|
+xD,x D,xD,| \
+xD,x D,xD,| \
+xD,x D,xD,| \
+xD,x D,x2|
+x6| \
+A,2A,2A,2| \
+A,2A,2A,2| \
+A,4A,2|
+A,4A,2| \
+A,2A,2A,2| \
+A,2A,2A,2| \
+A,4A,2|
+A,4x2| \
+x6| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+x
+% A'
+A,x A,xA,| \
+xA,x A,xA,| \
+xA,x A,xA,|
+xA,x A,xA,| \
+xD,x D,xD,| \
+xD,x D,xD,| \
+xD,x D,xD,|
+xD,x D,xD,| \
+xD,x D,xD,| \
+xD,x D,xD,| \
+xD,x D,x2|
+x6| \
+A,2A,2A,2| \
+A,2A,2A,2| \
+A,4A,2|
+A,4A,2| \
+A,2A,2A,2| \
+A,2A,2A,2| \
+A,4A,2|
+A,4x2| \
+x6| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+% B
+^CB,^C2A,2| \
+A,,E,A,2^C2| \
+D^CD2A,2|
+B,=CD E^ED| \
+=EDC B,CA| \
+GFE DGB,| \
+D,CB, A,B,G,|
+D4D2| \
+CxB, xA,x| \
+B,xA, xB,x| \
+CxB, xA,x|
+B,x^C xDx| \
+^CxA, xB,x| \
+^CxD xB,x| \
+^CxA, xB,x|
+^CxB, xA,x| \
+xA,x A,xA,| \
+xA,x A,xA,| \
+xA,x A,x2|
+D,4x2| \
+=CD^D2=D2| \
+C2^A,2=A,2| \
+F2G2A,2|
+F2G2A,2| \
+CD^D2=D2| \
+C2^A,2=A,2| \
+^C2D2A,2|
+^C2D =CB,A,| \
+G,B,D2E2| \
+A,CE2F2| \
+B,DG E^ED|
+=ECA, CB,A,| \
+D
+% *
+A,F, E,D,C,| \
+B,,D,G, B,,A,,F,| \
+G,2B,2D2|
+G4x2| \
+x6| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+% B'
+^CB,^C2A,2| \
+A,,E,A,2^C2| \
+D^CD2A,2|
+B,=CD E^ED| \
+=EDC B,CA| \
+GFE DGB,| \
+D,CB, A,B,G,|
+D4D2| \
+CxB, xA,x| \
+B,xA, xB,x| \
+CxB, xA,x|
+B,x^C xDx| \
+^CxA, xB,x| \
+^CxD xB,x| \
+^CxA, xB,x|
+^CxB, xA,x| \
+xA,x A,xA,| \
+xA,x A,xA,| \
+xA,x A,x2|
+D,4x2| \
+=CD^D2=D2| \
+C2^A,2=A,2| \
+F2G2A,2|
+F2G2A,2| \
+CD^D2=D2| \
+C2^A,2=A,2| \
+^C2D2A,2|
+^C2D =CB,A,| \
+G,B,D2E2| \
+A,CE2F2| \
+B,DG E^ED|
+=ECA, CB,A,| \
+DA,F, E,D,C,| \
+B,,D,G, B,,A,,F,| \
+G,2B,2D2|
+G4
+V:3
+% Johann Sebastian Bach  (1685-1750)
+%%MIDI program 42
+x6
+%Error : Bar 432 is 5/8 not 3/8
+| \
+x6| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+x
+% untitled
+% Copyright \0xa9 1996 by David J. Grossman
+% David J. Grossman
+% A
+% A'
+% B
+D,x D,xD,| \
+xD,x D,xD,| \
+xD,x D,xD,|
+xD,x D,xD,| \
+D,2x4| \
+x6| \
+D,2x4|
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+% *
+D,4x2| \
+x6| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+x
+% B'
+D,x D,xD,| \
+xD,x D,xD,| \
+xD,x D,xD,|
+xD,x D,xD,| \
+D,2x4| \
+x6| \
+D,2x4|
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+D,4
+V:4
+% Six Suites for Solo Cello
+%%MIDI program 42
+x6
+%Error : Bar 648 is 5/8 not 3/8
+| \
+x6| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+% untitled
+% Copyright \0xa9 1996 by David J. Grossman
+% David J. Grossman
+% A
+% A'
+% B
+% *
+G,,4x2| \
+x6| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+% B'
+G,,4
+% --------------------------------------
+% Suite No. 3 in C major - BWV 1009
+% 6th Movement: Gigue
+% --------------------------------------
+% Sequenced with Cakewalk Pro Audio by
+% David J. Grossman - dave@unpronounceable.com
+% This and other Bach MIDI files can be found at:
+% Dave's J.S. Bach Page
+% http://www.unpronounceable.com/bach
+% --------------------------------------
+% Original Filename: cs3-6gig.mid
+% Last Modified: February 22, 1997

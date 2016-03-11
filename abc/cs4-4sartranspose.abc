@@ -1,0 +1,245 @@
+X: 1
+T:from midi/cs4-4sar.mid
+M:3/4
+L:1/8
+Q:1/4=45
+K:Gmaj% 3 flats
+% untitled
+% A
+% *
+% A'
+% B
+% B'
+V:1
+% Solo Cello
+%%MIDI program 42
+% untitled
+% A
+D2E2=F2| \
+=F3/2D/2E2-E/2D/2C/2B,/2| \
+A,2B,2C2| \
+C3/2A,<B,D/2G,2-|
+G,3/2E,<^F,A,/2
+% *
+C2| \
+C3/2A,<B,D/2=F2-| \
+=F3/2D<E^G/2B2| \
+D2^C3/2B,<A,=G,/2|
+^F,2x4| \
+G,2x4| \
+A,2x4| \
+x6|
+% A'
+D2E2=F2| \
+=F3/2D/2E2-E/2D/2=C/2B,/2| \
+A,2B,2C2| \
+C3/2A,<B,D/2G,2-|
+G,3/2E,<^F,A,/2C2| \
+C3/2A,<B,D/2=F2-| \
+=F3/2D<E^G/2B2| \
+D2^C3/2B,<A,=G,/2|
+^F,2x4| \
+G,2x4| \
+A,2x4| \
+x6|
+% B
+A,2B,2=C2-| \
+C3/2A,/2B,2-B,/2A,/2G,/2F,/2| \
+G2F2E2| \
+E3/2^C<^DF<B,A,/2|
+^G,2A,2B,2| \
+=C3/2A,<F,^D/2E2-| \
+E3/2F/2F3E| \
+E3/2B,<=G,B,<E,=D,/2|
+^C,2x4| \
+D,2x4| \
+G,,2x2E,,2| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+=C,x4x| \
+B,,xC, x3| \
+x6|
+% B'
+A,2B,2C2-| \
+C3/2A,/2B,2-B,/2A,/2G,/2F,/2| \
+G2F2E2| \
+E3/2^C<^DF<B,A,/2|
+^G,2A,2B,2| \
+=C3/2A,<F,^D/2E2-| \
+E3/2F/2F3E| \
+E3/2B,<=G,B,<E,=D,/2|
+^C,2x4| \
+D,2x4| \
+G,,2x2E,,2| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+=C,x4x| \
+B,,xC, 
+V:2
+% --------------------------------------
+%%MIDI program 42
+% untitled
+% A
+G,6
+%Error : Bar 62 is 9/8 not 3/4
+| \
+G,2x4| \
+D,6| \
+D,2x4|
+D,3/2x4x/2| \
+% *
+D,3/2x4x/2| \
+^G,3/2x4x/2| \
+A,2x4|
+D3/2F<A^C/2D2-| \
+D3/2F<B^C/2D2-| \
+D^C/2B,/2A, =G,F,G,/2E,/2| \
+D,6|
+% A'
+G,6| \
+G,2x4| \
+D,6| \
+D,2x4|
+D,3/2x4x/2| \
+D,3/2x4x/2| \
+^G,3/2x4x/2| \
+A,2x4|
+D3/2F<A^C/2D2-| \
+D3/2F<B^C/2D2-| \
+D^C/2B,/2A, =G,F,G,/2E,/2| \
+D,6|
+% B
+D,6| \
+^D,3/2x4x/2| \
+B,2A,2_B,2| \
+F,3/2x4x/2|
+x6| \
+E,3/2x2x/2G,2| \
+A,2=B,4| \
+x6|
+A,2x4| \
+A,2x4| \
+=D,2x2^C,2| \
+D,3/2x4x/2|
+G,3/2B,<DF,/2G,2-| \
+G,3/2B,<EF,/2G,2-| \
+G,3/2=C<B,A,/2G,A,/2F,/2| \
+G,B,/2D/2G D/2B,/2G,2-|
+G,3/2_B,<EA,/2G2-| \
+GF/2E<FA/2D2-| \
+DC/2=B,/2A, G,D,G,/2F,/2| \
+G,,/2B,,/2D,/2F,/2G,/2B,/2 D/2F/2G2|
+% B'
+D,6| \
+^D,3/2x4x/2| \
+B,2A,2_B,2| \
+F,3/2x4x/2|
+x6| \
+E,3/2x2x/2G,2| \
+A,2=B,4| \
+x6|
+A,2x4| \
+A,2x4| \
+=D,2x2^C,2| \
+D,3/2x4x/2|
+G,3/2B,<DF,/2G,2-| \
+G,3/2B,<EF,/2G,2-| \
+G,3/2=C<B,A,/2G,A,/2F,/2| \
+G,B,/2D/2G D/2B,/2G,2-|
+G,3/2_B,<EA,/2G2-| \
+GF/2E<FA/2D2-| \
+DC/2=B,/2A, G,D,G,/2F,/2| \
+G,,/2B,,/2D,/2F,/2G,/2B,/2 D/2F/2G2|
+V:3
+% Johann Sebastian Bach  (1685-1750)
+%%MIDI program 42
+x6| \
+% untitled
+% A
+C,2x4| \
+x6| \
+G,,2x4|
+x6| \
+% *
+G,,3/2x4x/2| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+% A'
+C,2x4| \
+x6| \
+G,,2x4|
+x6| \
+G,,3/2x4x/2| \
+x6| \
+x6|
+x6| \
+x6| \
+x6| \
+x6|
+x6| \
+x6| \
+% B
+E,2D,2^C,2| \
+B,,3/2x4x/2|
+D,2=C,2B,,2| \
+A,,3/2x4x/2| \
+x6| \
+x6|
+E2F2G2| \
+G3/2E<FA/2C2-| \
+C3/2A,<B,D/2G,2-| \
+G,3/2E,<F,A,<D,C,/2|
+B,,2x4| \
+C,2x4| \
+D,2x4| \
+E,2x4|
+^C,2x4| \
+A,x4x| \
+G,x4x| \
+x6|
+x6| \
+x6| \
+% B'
+E,2D,2^C,2| \
+B,,3/2x4x/2|
+D,2=C,2B,,2| \
+A,,3/2x4x/2| \
+x6| \
+x6|
+E2F2G2| \
+G3/2E<FA/2C2-| \
+C3/2A,<B,D/2G,2-| \
+G,3/2E,<F,A,<D,C,/2|
+B,,2x4| \
+C,2x4| \
+D,2x4| \
+E,2x4|
+^C,2x4| \
+A,x4x| \
+G,
+% Six Suites for Solo Cello
+% --------------------------------------
+% Suite No. 4 in Eb major - BWV 1010
+% 4th Movement: Sarabande
+% --------------------------------------
+% Modified from an anonymous sequence with Cakewalk Pro Audio by
+% David J. Grossman - dave@unpronounceable.com
+% This and other Bach MIDI files can be found at:
+% Dave's J.S. Bach Page
+% http://www.unpronounceable.com/bach
+% --------------------------------------
+% Original Filename: cs4-4sar.mid
+% Last Modified: February 22, 1997

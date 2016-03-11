@@ -5,6 +5,7 @@ from math import log10
 from random import *
 from read_abc import read_abc_file, write_abc
 import csv
+import os, os.path
 DEBUG = True
 
 
@@ -61,6 +62,8 @@ def train(filename,mm):
     for i,note in enumerate(notes):
         if i == 0:
             continue
+        if notes[i-1] == note:
+            continue
         mm[notes[i-1]][note] += 1.
     return mm
 
@@ -69,18 +72,19 @@ def compose(tone,A,duration):
     for t in range(duration):
         
         possibles_following = [(elt,i) for i,elt in enumerate(A[part[t]]) if elt > 0]
+
         n = len(possibles_following)
 
         if n == 0:
             part.append(part[t-1])
             continue
 
-        possibles_sumed = [(possibles_following[0][0],0)]
+        possibles_sumed = [possibles_following[0]]
         for i in range(1, n):
-            possibles_sumed.append((possibles_sumed[i-1][0]+possibles_following[i][0], i))
+            possibles_sumed.append((possibles_sumed[i-1][0]+possibles_following[i][0], possibles_following[i][1]))
 
         next_note = random()
-        for proba,note in possibles_sumed:
+        for (proba,note) in possibles_sumed:
             if proba > next_note:
                 part.append(note)
                 break
@@ -113,4 +117,5 @@ for i,row in enumerate(A):
     if s > 0:
         A[i] = [row[j]/s for j in range(nbEtats)]
 
-write_abc("output.abc", convert_to_abc(compose(0,A,50)))
+seed = len([name for name in os.listdir('output/') if os.path.isfile('output/'+name)])/4+1
+write_abc(seed, convert_to_abc(compose(0,A,50)))

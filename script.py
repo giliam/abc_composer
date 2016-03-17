@@ -69,7 +69,7 @@ def train(filename,mm,etatsIndex):
         mm[notes[i-1]][note] += 1.
     return mm
 
-def train_rythm(filename):
+def train_rythm(filename, mmRythm):
     data = read_abc_file(filename)
     rythms = data[1]
     for rythm in rythms:
@@ -78,7 +78,6 @@ def train_rythm(filename):
     nbRythms = len(rythmsPossible)
     rythmsIndex = {rythm: i for i,rythm in enumerate(rythmsPossible)}
     rythms = map(lambda x: rythmsIndex[x], rythms)
-    mmRythm = [[0. for i in range(nbRythms)] for j in range(nbRythms)]
     for i, rythm in enumerate(rythms):
         if i == 0:
             continue
@@ -126,7 +125,7 @@ def represent_rythm(value):
         a,b = (value).as_integer_ratio()
         return str(a)+"/"+str(b)
 
-def convert_to_abc(part_notes, part_rythms):
+def convert_to_abc(part_notes, part_rythms, deactivate_rythm=False):
     output = """X: 1
 T: from midi/cs1-1pre.mid
 M: 4/4
@@ -140,7 +139,8 @@ V:1
     for i,note in enumerate(part_notes):
         #Adds note
         output += etatsPossibles[note]
-
+        if deactivate_rythm:
+            continue
         if rythmsPossible[part_rythms[i]] == '':
             current_value = 1.
         elif "/" in rythmsPossible[part_rythms[i]]:
@@ -170,9 +170,9 @@ V:1
                 output += represent_rythm(8-(rythm_count-current_value))
                 output += add_end_measure(nb_mesures)
                 # Finishes the note
-                output += etatsPossibles[note]
-                output += represent_rythm(rythm_count-8)
-                rythm_count = rythm_count-8
+                #output += etatsPossibles[note]
+                #output += represent_rythm(rythm_count-8)
+                rythm_count = 0
                 continue
             else:
                 if DEBUG:
@@ -185,15 +185,15 @@ V:1
             output += represent_rythm(current_value)
     return output
 
-def compose_new_piece(A, B, duration):
-    seed = len([name for name in os.listdir('output/') if os.path.isfile('output/'+name)])/4+1
-    part_notes = compose(0, A, 50)
-    part_rythms = compose(0, B, 50)
-    write_abc(seed, convert_to_abc(part_notes, part_rythms))
+def compose_new_piece(A, B, duration, deactivate_rythm=False):
+    seed = len([name for name in os.listdir('output/') if os.path.isfile('output/'+name)])/4+2
+    part_notes = compose(0, A, duration)
+    part_rythms = compose(0, B, duration)
+    write_abc(seed, convert_to_abc(part_notes, part_rythms, deactivate_rythm))
 
 def create_new_mm(files_list, name):
     A = [[0. for i in range(nbEtats)] for j in range(nbEtats)]
-
+    
     N = len(A)
     etats = range(N)
     nb_files = len(files_list)
@@ -207,13 +207,55 @@ def create_new_mm(files_list, name):
         pickle.dump(A, file)
     return A
 
+def create_new_mm_rythm(files_list, name):
+    nbRythms = 0
+    for filename in files_list:
+        data = read_abc_file("abc/rythm/" + filename + ".abc")
+        rythms = data[1]
+        for rythm in rythms:
+            if rythm not in rythmsPossible:
+                rythmsPossible.append(rythm)
+        nbRythms = max(nbRythms, len(rythmsPossible))
+    mmRythm = [[0. for i in range(nbRythms)] for j in range(nbRythms)]
+    N = len(mmRythm)
+    etats = range(N)
+    nb_files = len(files_list)
+    for filename in files_list:
+        mmRythm = train_rythm("abc/rythm/" + filename + ".abc", mmRythm)
+    for i,row in enumerate(mmRythm):
+        s = sum(row)
+        if s > 0:
+            mmRythm[i] = [row[j]/s for j in range(nbRythms)]
+    with open("markovchains/rythm_" + name + ".mc", "w") as file:
+        pickle.dump(mmRythm, file)
+    return mmRythm
+
 
 def main():
-    files_list = ["cs1-1pre","cs1-2all","cs1-3cou","cs1-5men","cs1-4sar","cs1-6gig"]
+    files_list = ["cs1-1pre","cs1-1pre","cs1-1pre","cs1-1pre","cs1-1pre","cs1-1pre"]
+    automate_sol = create_new_mm(files_list, "suite_1_tonalite_sol")
+    files_list = ["cs2-1pre","cs2-2all","cs2-3cou","cs2-5men","cs2-4sar","cs2-6gig"]
+    automate_fa = create_new_mm(files_list, "suite_2_tonalite_fa")
+    files_list = ["cs3-1pre","cs3-2all","cs3-3cou","cs3-5bou","cs3-4sar","cs3-6gig"]
+    automate_do = create_new_mm(files_list, "suite_3_tonalite_do")
+    files_list = ["cs4-1pre","cs4-2all","cs4-3cou","cs4-5bou","cs4-4sar","cs4-6gig","cs5-1pre","cs5-2all","cs5-3cou","cs5-5gav","cs5-4sar","cs5-6gig"]
+    automate_mib = create_new_mm(files_list, "suite_4_5_tonalite_mib")
+    files_list = ["cs6-1pre","cs6-2all","cs6-3cou","cs6-5gav","cs6-4sar","cs6-6gig"]
+    automate_re = create_new_mm(files_list, "suite_6_tonalite_re")
+    files_list = ["cs1-1pre","cs2-1pre","cs3-1pre","cs4-1pre","cs5-1pre","cs6-1pre"]
+    automate_pre = create_new_mm(files_list, "automate_preludes")
+    files_all = ["cs1-1pre","cs1-1pre","cs1-1pre","cs1-1pre","cs1-1pre","cs1-1pre","cs2-1pre","cs2-2all","cs2-3cou","cs2-5men","cs2-4sar","cs2-6gig","cs3-1pre","cs3-2all","cs3-3cou","cs3-5bou","cs3-4sar","cs3-6gig","cs4-1pre","cs4-2all","cs4-3cou","cs4-5bou","cs4-4sar","cs4-6gig","cs5-1pre","cs5-2all","cs5-3cou","cs5-5gav","cs5-4sar","cs5-6gig","cs6-1pre","cs6-2all","cs6-3cou","cs6-5gav","cs6-4sar","cs6-6gig","cs1-1pre","cs2-1pre","cs3-1pre","cs4-1pre","cs5-1pre","cs6-1pre"]
+    automate_tout = create_new_mm(files_all, "all")
+    files_list = ["AllBlues","AloneTogether","BigTime","BlueInGreen","Bluette","decoy","EightyOne","Four","Joshua","Nardis"]
+    B = create_new_mm_rythm(files_list, "rythme")
+    duration = 200
+    
+    compose_new_piece(automate_pre, B, duration, False)
+    compose_new_piece(automate_tout, B, duration, False)
+    compose_new_piece(automate_sol, B, duration, False)
+    compose_new_piece(automate_fa, B, duration, False)
+    compose_new_piece(automate_do, B, duration, False)
+    compose_new_piece(automate_mib, B, duration, False)
+    compose_new_piece(automate_re, B, duration, False)
 
-    files_list_all = ["cs1-1pre","cs2-1pretranspose","cs3-1pretranspose","cs4-1pretranspose","cs5-1pretranspose","cs6-1pretranspose"]
-    #automate = create_new_mm(files_list_all, "suites_toutes_tonalite_sol")
-    automate = create_new_mm(files_list, "suite_1_tonalite_sol")
-    B = train_rythm("abc/rhythm/decoy.abc")
-    compose_new_piece(automate, B, 150)
 main()

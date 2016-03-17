@@ -1,0 +1,14 @@
+X: 1
+T: from output/particulierementreussi.mid
+M: 4/4
+L: 1/8
+Q:1/4=80
+K:G % 1 sharps
+% from midi/cs1-1pre.mid
+V:1
+% from midi/cs1-1pre.mid
+%  1 sharps
+% from midi/cs1-1pre.mid
+D/2C/2B,/2A,/2 B,/2C/2D/2C/2 E/2D/2^C/2A,/2 G,/2E,/2F,/2G,/2| \
+E,/2G,/2F,/2A,/2 F,/2A,,/2D,/2E,/2 D,/2A,,/2G,/2F,/2 E,/2F,/2=C/2E/2| \
+D/2E/2D/2F,/2 D,/2D/2^C/2D/2 B,/2D/2=C/2

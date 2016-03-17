@@ -28,6 +28,8 @@ etatsIndex = {note: i for i,note in enumerate(etatsPossibles)}
 
 nbEtats = len(etatsPossibles)
 
+rythmsPossible = []
+
 def argmax(values):
     return max(enumerate(values), key=lambda x:x[1])
 
@@ -66,6 +68,26 @@ def train(filename,mm,etatsIndex):
         mm[notes[i-1]][note] += 1.
     return mm
 
+def train_rythm(filename):
+    data = read_abc_file(filename)
+    rythms = data[1]
+    for rythm in rythms:
+        if rythm not in rythmsPossible:
+            rythmsPossible.append(rythm)
+    nbRythms = len(rythmsPossible)
+    rythmsIndex = {rythm: i for i,rythm in enumerate(rythmsPossible)}
+    rythms = map(lambda x: rythmsIndex[x], rythms)
+    mmRythm = [[0. for i in range(nbRythms)] for j in range(nbRythms)]
+    for i, rythm in enumerate(rythms):
+        if i == 0:
+            continue
+        mmRythm[rythms[i-1]][rythm] += 1.
+    for i,row in enumerate(mmRythm):
+        s = sum(row)
+        if s > 0:
+            mmRythm[i] = [row[j]/s for j in range(nbRythms)]
+    return mmRythm
+
 def compose(tone,A,duration):
     part = [tone]
     for t in range(duration):
@@ -89,7 +111,7 @@ def compose(tone,A,duration):
                 break
     return part
 
-def convert_to_abc(part):
+def convert_to_abc(part_notes, part_rythms):
     output = """X: 1
 T: from midi/cs1-1pre.mid
 M: 4/4
@@ -97,9 +119,9 @@ L: 1/8
 Q:1/4=80
 K:G % 1 sharps
 V:1"""
-    for i,note in enumerate(part):
+    for i,note in enumerate(part_notes):
         output += etatsPossibles[note]
-        output += "/2"
+        output += rythmsPossible[part_rythms[i]]
         if i%8 == 7:
             output += "|"
             if i%32 != 31:
@@ -107,9 +129,11 @@ V:1"""
             output += "\n"
     return output
 
-def compose_new_piece(A, duration):
+def compose_new_piece(A, B, duration):
     seed = len([name for name in os.listdir('output/') if os.path.isfile('output/'+name)])/4+1
-    write_abc(seed, convert_to_abc(compose(0,A,50)))
+    part_notes = compose(0, A, 50)
+    part_rythms = compose(0, B, 50)
+    write_abc(seed, convert_to_abc(part_notes, part_rythms)
 
 def create_new_mm(files_list, name):
     A = [[0. for i in range(nbEtats)] for j in range(nbEtats)]
@@ -127,9 +151,12 @@ def create_new_mm(files_list, name):
         pickle.dump(A, file)
     return A
 
+
 def main():
     files_list = ["cs1-1pre","cs1-2all","cs1-3cou","cs1-5men","cs1-4sar","cs1-6gig"]
     create_new_mm(files_list, "suite_1_tonalite_sol")
 
     files_list_all = ["cs1-1pre","cs2-1pretranspose","cs3-1pretranspose","cs4-1pretranspose","cs5-1pretranspose","cs6-1pretranspose"]
     automate = create_new_mm(files_list_all, "suites_toutes_tonalite_sol")
+    B = train_rythm("abc/decoy.abc")
+

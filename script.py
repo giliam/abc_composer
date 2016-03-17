@@ -7,8 +7,9 @@ from read_abc import read_abc_file, write_abc
 import csv
 import os, os.path
 import pickle
+import sys
 
-DEBUG = True
+DEBUG = False
 
 etatsPossibles = [
     "A,,","B,,","C,,","D,,","E,,","F,,","G,,",
@@ -111,6 +112,20 @@ def compose(tone,A,duration):
                 break
     return part
 
+def add_end_measure(nb_mesures):
+    output = "|"
+    if nb_mesures%4 != 3:
+        output += " \\"
+    output += "\n"
+    return output
+
+def represent_rythm(value):
+    if int(value) == value:
+        return str(int(value))
+    else:
+        a,b = (value).as_integer_ratio()
+        return str(a)+"/"+str(b)
+
 def convert_to_abc(part_notes, part_rythms):
     output = """X: 1
 T: from midi/cs1-1pre.mid
@@ -118,22 +133,63 @@ M: 4/4
 L: 1/8
 Q:1/4=80
 K:G % 1 sharps
-V:1"""
+V:1
+"""
+    rythm_count = 0
+    nb_mesures = 0
     for i,note in enumerate(part_notes):
+        #Adds note
         output += etatsPossibles[note]
-        output += rythmsPossible[part_rythms[i]]
-        if i%8 == 7:
-            output += "|"
-            if i%32 != 31:
-                output += "\\"
-            output += "\n"
+
+        if rythmsPossible[part_rythms[i]] == '':
+            current_value = 1.
+        elif "/" in rythmsPossible[part_rythms[i]]:
+            current_value = 1./int(rythmsPossible[part_rythms[i]].replace('/', ''))
+        else:
+            current_value = int(rythmsPossible[part_rythms[i]])
+        rythm_count += current_value
+        if DEBUG:
+            print "new note"
+            print etatsPossibles[note]
+            print rythmsPossible[part_rythms[i]]
+            print current_value
+
+            print rythm_count
+        if rythm_count >= 8:
+            nb_mesures += 1
+            if rythm_count > 8:
+                if DEBUG:
+                    print "greater than 8"
+                    print represent_rythm(8-(rythm_count-current_value))
+                    print add_end_measure(nb_mesures)
+                    print etatsPossibles[note]
+                    print represent_rythm(rythm_count-8)
+
+                # Returns before rythm addition
+                # Finishes properly the measure
+                output += represent_rythm(8-(rythm_count-current_value))
+                output += add_end_measure(nb_mesures)
+                # Finishes the note
+                output += etatsPossibles[note]
+                output += represent_rythm(rythm_count-8)
+                rythm_count = rythm_count-8
+                continue
+            else:
+                if DEBUG:
+                    print "Normal"
+
+                output += represent_rythm(current_value)
+                rythm_count = 0
+            output += add_end_measure(nb_mesures)
+        else:
+            output += represent_rythm(current_value)
     return output
 
 def compose_new_piece(A, B, duration):
     seed = len([name for name in os.listdir('output/') if os.path.isfile('output/'+name)])/4+1
     part_notes = compose(0, A, 50)
     part_rythms = compose(0, B, 50)
-    write_abc(seed, convert_to_abc(part_notes, part_rythms)
+    write_abc(seed, convert_to_abc(part_notes, part_rythms))
 
 def create_new_mm(files_list, name):
     A = [[0. for i in range(nbEtats)] for j in range(nbEtats)]
@@ -154,9 +210,10 @@ def create_new_mm(files_list, name):
 
 def main():
     files_list = ["cs1-1pre","cs1-2all","cs1-3cou","cs1-5men","cs1-4sar","cs1-6gig"]
-    create_new_mm(files_list, "suite_1_tonalite_sol")
 
     files_list_all = ["cs1-1pre","cs2-1pretranspose","cs3-1pretranspose","cs4-1pretranspose","cs5-1pretranspose","cs6-1pretranspose"]
-    automate = create_new_mm(files_list_all, "suites_toutes_tonalite_sol")
-    B = train_rythm("abc/decoy.abc")
-
+    #automate = create_new_mm(files_list_all, "suites_toutes_tonalite_sol")
+    automate = create_new_mm(files_list, "suite_1_tonalite_sol")
+    B = train_rythm("abc/rhythm/decoy.abc")
+    compose_new_piece(automate, B, 150)
+main()
